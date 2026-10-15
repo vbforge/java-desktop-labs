@@ -22,5 +22,15 @@ const APPS = [
         image: "images/ledger.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/ledger",
         release: "https://github.com/vbforge/java-desktop-labs/releases/tag/ledger-v1.0.0"
+    },
+    {
+        id: "pixelforge",
+        name: "PixelForge",
+        framework: "JavaFX",
+        tagline: "Interactive Mandelbrot explorer with cancellable off-thread rendering and half-resolution previews during pan and zoom.",
+        tags: ["JavaFX", "Canvas", "Concurrency", "Maven"],
+        image: "images/pixelforge.png",
+        source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/pixelforge",
+        release: "https://github.com/vbforge/java-desktop-labs/releases/tag/pixelforge-v1.0.0"
     }
 ];

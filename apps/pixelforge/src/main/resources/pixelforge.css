@@ -1,0 +1,31 @@
+.root {
+    -fx-font-family: 'Segoe UI', system-ui, sans-serif;
+    -fx-background-color: #0d1117;
+}
+
+.label {
+    -fx-text-fill: #8b949e;
+    -fx-font-size: 13px;
+}
+
+.button {
+    -fx-background-color: #1c2129;
+    -fx-text-fill: #e6edf3;
+    -fx-border-color: #2a313c;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 6 14;
+    -fx-cursor: hand;
+}
+.button:hover { -fx-background-color: #242b36; }
+
+.slider .track {
+    -fx-background-color: #1c2129;
+    -fx-border-color: #2a313c;
+}
+.slider .thumb {
+    -fx-background-color: #f89820;
+}
+.slider .axis {
+    -fx-tick-label-fill: #8b949e;
+}
