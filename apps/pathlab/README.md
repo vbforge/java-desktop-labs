@@ -36,7 +36,7 @@ java -jar pathlab-1.0.0-win.jar
 ```
 
 The jar is platform-specific because it bundles JavaFX natives. Grab the
-one matching your OS from the [Releases page](https://github.com/vbforge/java-desktop-labs/releases).
+one matching your OS from the [Releases page](https://github.com/vbforge/java-desktop-labs/releases/tag/pathlab-v1.0.0).
 
 **From source** (needs JDK 21 and Maven):
 

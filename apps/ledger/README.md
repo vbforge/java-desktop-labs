@@ -33,7 +33,7 @@ Java 21 · JavaFX 21 · SQLite (via `sqlite-jdbc`) · Maven
 java -jar ledger-1.0.0-win.jar
 ```
 
-Grab the jar matching your OS from the [Releases page](https://github.com/vbforge/java-desktop-labs/releases).
+Grab the jar matching your OS from the [Releases page](https://github.com/vbforge/java-desktop-labs/releases/tag/ledger-v1.0.0).
 
 **From source** (needs JDK 21 and Maven):
 

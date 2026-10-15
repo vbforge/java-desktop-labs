@@ -21,6 +21,6 @@ const APPS = [
         tags: ["SQLite", "Charts", "TableView", "Maven"],
         image: "images/ledger.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/ledger",
-        release: "https://github.com/vbforge/java-desktop-labs/releases?q=ledger"
+        release: "https://github.com/vbforge/java-desktop-labs/releases/tag/ledger-v1.0.0"
     }
 ];
