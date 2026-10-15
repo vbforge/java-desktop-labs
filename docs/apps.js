@@ -42,5 +42,15 @@ const APPS = [
         image: "images/chatter.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/chatter",
         release: "https://github.com/vbforge/java-desktop-labs/releases/tag/chatter-v1.0.0"
+    },
+    {
+        id: "kana-drill",
+        name: "Kana Drill",
+        framework: "Swing",
+        tagline: "Spaced-repetition flashcards for hiragana and katakana. Type the romaji, get a flash of feedback, and see characters you keep forgetting come up more often.",
+        tags: ["Swing", "Spaced Repetition", "Custom Painting", "Maven"],
+        image: "images/kana-drill.png",
+        source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/kana-drill",
+        release: "https://github.com/vbforge/java-desktop-labs/releases/tag/kana-drill-v1.0.0"
     }
 ];
