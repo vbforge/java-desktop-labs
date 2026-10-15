@@ -1,6 +1,6 @@
 # PathLab
 
-> Grid-based pathfinding visualiser — BFS, Dijkstra and A* on a 4-connected grid.
+> Grid-based pathfinding visualizer — BFS, Dijkstra and A* on a 4-connected grid.
 
 ![PathLab screenshot](../../docs/images/pathlab.png)
 
@@ -36,7 +36,7 @@ java -jar pathlab-1.0.0-win.jar
 ```
 
 The jar is platform-specific because it bundles JavaFX natives. Grab the
-one matching your OS from the [Releases page](../../../../releases).
+one matching your OS from the [Releases page](https://github.com/vbforge/java-desktop-labs/releases).
 
 **From source** (needs JDK 21 and Maven):
 
