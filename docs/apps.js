@@ -32,5 +32,15 @@ const APPS = [
         image: "images/pixelforge.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/pixelforge",
         release: "https://github.com/vbforge/java-desktop-labs/releases/tag/pixelforge-v1.0.0"
+    },
+    {
+        id: "chatter",
+        name: "Chatter",
+        framework: "JavaFX",
+        tagline: "Minimal LAN chat over TCP. One window can host a server, join one, or both — with a text protocol simple enough to test with telnet.",
+        tags: ["Sockets", "Multithreading", "JavaFX", "Maven"],
+        image: "images/chatter.png",
+        source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/chatter",
+        release: "https://github.com/vbforge/java-desktop-labs/releases/tag/chatter-v1.0.0"
     }
 ];
