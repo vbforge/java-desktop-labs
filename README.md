@@ -10,6 +10,7 @@ Each app is self-contained, open source, and runs on Windows, macOS and Linux.
 | App                     | Framework | What it does                                          |
 |-------------------------|-----------|-------------------------------------------------------|
 | [PathLab](apps/pathlab) | JavaFX    | Grid-based pathfinding visualiser (BFS, Dijkstra, A*) |
+| [Ledger](apps/ledger) | JavaFX    | Personal finance tracker with SQLite storage, CSV-ready table views and a live spending chart. |
 
 ## Repository layout
 

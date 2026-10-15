@@ -12,5 +12,15 @@ const APPS = [
         image: "images/pathlab.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/pathlab",
         release: "https://github.com/vbforge/java-desktop-labs/releases/tag/pathlab-v1.0.0"
+    },
+    {
+        id: "ledger",
+        name: "Ledger",
+        framework: "JavaFX",
+        tagline: "Personal finance tracker with SQLite storage, an editable table view and a live spending chart. Everything stays in a local file — no account, no cloud.",
+        tags: ["SQLite", "Charts", "TableView", "Maven"],
+        image: "images/ledger.png",
+        source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/ledger",
+        release: "https://github.com/vbforge/java-desktop-labs/releases?q=ledger"
     }
 ];
