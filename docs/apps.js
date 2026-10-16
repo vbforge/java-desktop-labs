@@ -82,5 +82,15 @@ const APPS = [
         image: "images/air-distance.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/air-distance",
         release: "https://github.com/vbforge/java-desktop-labs/releases/tag/air-distance-v1.0.0"
+    },
+    {
+        id: "focus-sprint",
+        name: "FocusSprint",
+        framework: "JavaFX",
+        tagline: "Track your day by section — Code, Read, Sport — with a live retrospective that updates as you work. Sessions stored in SQLite; the retrospective is a query, not a stored number.",
+        tags: ["JavaFX", "SQLite", "AnimationTimer", "Maven"],
+        image: "images/focus-sprint.png",
+        source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/focus-sprint",
+        release: "https://github.com/vbforge/java-desktop-labs/releases/tag/focus-sprint-v1.0.0"
     }
 ];

@@ -17,6 +17,7 @@ Each app is self-contained, open source, and runs on Windows, macOS and Linux.
 | [TaskFlow](apps/taskflow/README.md)         | Swing     | Offline Kanban board with custom drag-and-drop, a live drop indicator, and full undo/redo via the command pattern. |
 | [Contacts](apps/contacts/README.md)         | JavaFX    | Address book with switchable SQLite / CSV / JSON storage.                                                          |
 | [Air Distance](apps/air-distance/README.md) | Swing     | Compute remaining distance from a known distance and fraction flown.                                               |
+| [FocusSprint](apps/focus-sprint/README.md)  | JavaFX    | Single-day focus tracker with live retrospective.                                                                  |
 
 ## Repository layout
 
