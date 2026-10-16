@@ -7,15 +7,16 @@ Each app is self-contained, open source, and runs on Windows, macOS and Linux.
 
 ## Apps
 
-| App                                     | Framework | What it does                                                                                                       |
-|-----------------------------------------|-----------|--------------------------------------------------------------------------------------------------------------------|
-| [PathLab](apps/pathlab/README.md)       | JavaFX    | Grid-based pathfinding visualiser (BFS, Dijkstra, A*).                                                             |
-| [Ledger](apps/ledger/README.md)         | JavaFX    | Personal finance tracker with SQLite storage, CSV-ready table views and a live spending chart.                     |
-| [Pixelforge](apps/pixelforge/README.md) | JavaFX    | Interactive Mandelbrot explorer with off-thread rendering.                                                         |
-| [Chatter](apps/chatter/README.md)       | JavaFX    | LAN chat client and server over TCP.                                                                               |
-| [Kana Drill](apps/kana-drill/README.md) | Swing     | Spaced-repetition flashcards for hiragana and katakana.                                                            |
-| [TaskFlow](apps/taskflow/README.md)     | Swing     | Offline Kanban board with custom drag-and-drop, a live drop indicator, and full undo/redo via the command pattern. |
-| [Contacts](apps/contacts/README.md)     | JavaFX    | Address book with switchable SQLite / CSV / JSON storage.                                                          |
+| App                                         | Framework | What it does                                                                                                       |
+|---------------------------------------------|-----------|--------------------------------------------------------------------------------------------------------------------|
+| [PathLab](apps/pathlab/README.md)           | JavaFX    | Grid-based pathfinding visualiser (BFS, Dijkstra, A*).                                                             |
+| [Ledger](apps/ledger/README.md)             | JavaFX    | Personal finance tracker with SQLite storage, CSV-ready table views and a live spending chart.                     |
+| [Pixelforge](apps/pixelforge/README.md)     | JavaFX    | Interactive Mandelbrot explorer with off-thread rendering.                                                         |
+| [Chatter](apps/chatter/README.md)           | JavaFX    | LAN chat client and server over TCP.                                                                               |
+| [Kana Drill](apps/kana-drill/README.md)     | Swing     | Spaced-repetition flashcards for hiragana and katakana.                                                            |
+| [TaskFlow](apps/taskflow/README.md)         | Swing     | Offline Kanban board with custom drag-and-drop, a live drop indicator, and full undo/redo via the command pattern. |
+| [Contacts](apps/contacts/README.md)         | JavaFX    | Address book with switchable SQLite / CSV / JSON storage.                                                          |
+| [Air Distance](apps/air-distance/README.md) | Swing     | Compute remaining distance from a known distance and fraction flown.                                               |
 
 ## Repository layout
 

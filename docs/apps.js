@@ -72,5 +72,15 @@ const APPS = [
         image: "images/contacts.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/contacts",
         release: "https://github.com/vbforge/java-desktop-labs/releases/tag/contacts-v1.0.0"
+    },
+    {
+        id: "air-distance",
+        name: "Air Distance",
+        framework: "Swing",
+        tagline: "Compute remaining distance from a known distance already flown and the fraction of the trip it represents. Pure-math core, Swing front end, full JUnit test coverage.",
+        tags: ["Swing", "JUnit 5", "Math", "Maven"],
+        image: "images/air-distance.png",
+        source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/air-distance",
+        release: "https://github.com/vbforge/java-desktop-labs/releases/tag/air-distance-v1.0.0"
     }
 ];
