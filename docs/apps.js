@@ -52,5 +52,15 @@ const APPS = [
         image: "images/kana-drill.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/kana-drill",
         release: "https://github.com/vbforge/java-desktop-labs/releases/tag/kana-drill-v1.0.0"
+    },
+    {
+        id: "taskflow",
+        name: "TaskFlow",
+        framework: "Swing",
+        tagline: "Offline Kanban board with custom drag-and-drop, a live drop indicator, and full undo/redo via the command pattern. Board lives in a plain text file.",
+        tags: ["Swing", "Drag & Drop", "Command Pattern", "Custom Painting"],
+        image: "images/taskflow.png",
+        source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/taskflow",
+        release: "https://github.com/vbforge/java-desktop-labs/releases/tag/taskflow-v1.0.0"
     }
 ];

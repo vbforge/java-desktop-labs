@@ -33,6 +33,8 @@ Java 21 · JavaFX 21 · Maven · zero runtime dependencies beyond JavaFX
 java -jar pixelforge-1.0.0-win.jar
 ```
 
+[Releases page](https://github.com/vbforge/java-desktop-labs/releases/tag/pixelforge-v1.0.0)
+
 **From source** (needs JDK 21 and Maven):
 
 ```bash
