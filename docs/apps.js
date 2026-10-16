@@ -62,5 +62,15 @@ const APPS = [
         image: "images/taskflow.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/taskflow",
         release: "https://github.com/vbforge/java-desktop-labs/releases/tag/taskflow-v1.0.0"
+    },
+    {
+        id: "contacts",
+        name: "Contacts",
+        framework: "JavaFX",
+        tagline: "Address book with switchable storage — SQLite, CSV or JSON — plus cross-format import and export. The whole thing sits behind a two-method repository interface.",
+        tags: ["JavaFX", "FXML", "SQLite", "CSV", "JSON", "Maven"],
+        image: "images/contacts.png",
+        source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/contacts",
+        release: "https://github.com/vbforge/java-desktop-labs/releases/tag/contacts-v1.0.0"
     }
 ];
