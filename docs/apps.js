@@ -92,5 +92,15 @@ const APPS = [
         image: "images/focus-sprint.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/focus-sprint",
         release: "https://github.com/vbforge/java-desktop-labs/releases/tag/focus-sprint-v1.0.0"
+    },
+    {
+        id: "diskscope",
+        name: "DiskScope",
+        framework: "JavaFX",
+        tagline: "Interactive disk space analyzer with a drill-down donut chart. Scans folders on a background thread, groups the top 7 largest items, and lets you navigate the file system visually.",
+        tags: ["JavaFX", "File I/O", "Concurrency", "Maven"],
+        image: "images/diskscope.png",
+        source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/diskscope",
+        release: "https://github.com/vbforge/java-desktop-labs/releases/tag/diskscope-v1.0.0"
     }
 ];

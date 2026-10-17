@@ -1,0 +1,169 @@
+.root-pane {
+    -fx-background-color: #0d1117;
+}
+
+/* ---------- Toolbar ---------- */
+.toolbar {
+    -fx-padding: 14 20;
+    -fx-border-color: transparent transparent #2a313c transparent;
+    -fx-border-width: 0 0 1 0;
+}
+
+.btn {
+    -fx-background-color: #1c2129;
+    -fx-text-fill: #e6edf3;
+    -fx-border-color: #2a313c;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-padding: 8 16;
+    -fx-cursor: hand;
+}
+.btn:hover {
+    -fx-background-color: #242b36;
+    -fx-border-color: #3d4653;
+}
+.btn-primary {
+    -fx-background-color: linear-gradient(to bottom, #f9a63c, #e8890c);
+    -fx-text-fill: #1a1206;
+    -fx-border-color: #e8890c;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-padding: 8 16;
+    -fx-cursor: hand;
+}
+.btn-primary:hover {
+    -fx-background-color: linear-gradient(to bottom, #ffb455, #f39217);
+}
+
+.breadcrumb {
+    -fx-text-fill: #8b949e;
+    -fx-font-family: ui-monospace, Consolas, monospace;
+    -fx-font-size: 13px;
+    -fx-background-color: #0d1117;
+    -fx-border-color: #2a313c;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 8 14;
+}
+
+/* ---------- Chart Area ---------- */
+.chart-area {
+    -fx-padding: 32;
+}
+
+.chart-pie {
+    -fx-background-color: transparent;
+}
+.chart-pie-label {
+    -fx-fill: #e6edf3;
+}
+.chart-pie-label-line {
+    -fx-stroke: transparent;
+}
+
+.center-total {
+    -fx-text-fill: #e6edf3;
+    -fx-font-family: ui-monospace, Consolas, monospace;
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+}
+.center-label {
+    -fx-text-fill: #8b949e;
+    -fx-font-size: 12px;
+}
+
+/* ---------- Loading ---------- */
+.loading-text {
+    -fx-text-fill: #f89820;
+    -fx-font-family: ui-monospace, Consolas, monospace;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+.progress-indicator {
+    -fx-progress-color: #f89820;
+}
+
+/* ---------- Legend Panel ---------- */
+.legend-panel {
+    -fx-background-color: #0d1117;
+    -fx-border-color: transparent transparent transparent #2a313c;
+    -fx-border-width: 0 0 0 1;
+    -fx-padding: 20;
+}
+.legend-header {
+    -fx-text-fill: #8b949e;
+    -fx-font-family: ui-monospace, Consolas, monospace;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}
+
+/* ScrollPane overrides to fix white borders */
+.legend-scroll {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background: transparent;
+}
+.legend-scroll > .viewport {
+    -fx-background-color: transparent;
+}
+.legend-scroll .scroll-bar {
+    -fx-background-color: transparent;
+}
+.legend-scroll .scroll-bar .thumb {
+    -fx-background-color: #2a313c;
+    -fx-background-radius: 4;
+}
+.legend-scroll .scroll-bar .increment-button,
+.legend-scroll .scroll-bar .decrement-button {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+
+.legend-item {
+    -fx-background-color: #161b22;
+    -fx-border-color: #2a313c;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 10 12;
+}
+.legend-item:hover {
+    -fx-border-color: #3d4653;
+    -fx-background-color: #1c2129;
+}
+.legend-name {
+    -fx-text-fill: #e6edf3;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+.legend-size {
+    -fx-text-fill: #8b949e;
+    -fx-font-family: ui-monospace, Consolas, monospace;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+/* ---------- Status Bar ---------- */
+.status-bar {
+    -fx-padding: 12 20;
+    -fx-border-color: #2a313c transparent transparent transparent;
+    -fx-border-width: 1 0 0 0;
+}
+.status-hint {
+    -fx-text-fill: #8b949e;
+    -fx-font-family: ui-monospace, Consolas, monospace;
+    -fx-font-size: 12px;
+}
+.status-ok {
+    -fx-text-fill: #3fb950;
+    -fx-font-family: ui-monospace, Consolas, monospace;
+    -fx-font-size: 12px;
+}
+.status-err {
+    -fx-text-fill: #f85149;
+    -fx-font-family: ui-monospace, Consolas, monospace;
+    -fx-font-size: 12px;
+}
