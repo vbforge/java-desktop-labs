@@ -94,5 +94,4 @@ mvn clean javafx:run
 ## License
 
 MIT — see [LICENSE](../../LICENSE).
-```
-!
+

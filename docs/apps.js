@@ -122,5 +122,15 @@ const APPS = [
         image: "images/chessmate.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/chessmate",
         release: "https://github.com/vbforge/java-desktop-labs/releases/tag/chessmate-v1.0.0"
+    },
+    {
+        id: "clickrush",
+        name: "ClickRush",
+        framework: "JavaFX",
+        tagline: "Test your visual reflexes and raw clicking speed. Features a millisecond-accurate Reaction Time test and a live CPS meter, backed by a local SQLite leaderboard.",
+        tags: ["JavaFX", "SQLite", "AnimationTimer", "Maven"],
+        image: "images/clickrush.png",
+        source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/clickrush",
+        release: "https://github.com/vbforge/java-desktop-labs/releases/tag/clickrush-v1.0.0"
     }
 ];
