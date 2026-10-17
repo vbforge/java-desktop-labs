@@ -142,5 +142,15 @@ const APPS = [
         image: "images/audioflow.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/audioflow",
         release: "https://github.com/vbforge/java-desktop-labs/releases/tag/audioflow-v1.0.0"
+    },
+    {
+        id: "homeshelf",
+        name: "HomeShelf",
+        framework: "JavaFX",
+        tagline: "A sleek media library manager that lets you save your collection as JSON, XML, SQLite, or Binary files.",
+        tags: ["JavaFX", "SQLite", "Jackson", "File I/O", "Maven"],
+        image: "images/homeshelf.png",
+        source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/homeshelf",
+        release: "https://github.com/vbforge/java-desktop-labs/releases/tag/homeshelf-v1.0.0"
     }
 ];
