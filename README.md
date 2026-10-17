@@ -19,6 +19,7 @@ Each app is self-contained, open source, and runs on Windows, macOS and Linux.
 | [Air Distance](apps/air-distance/README.md) | Swing     | Compute remaining distance from a known distance and fraction flown.                                               |
 | [FocusSprint](apps/focus-sprint/README.md)  | JavaFX    | Single-day focus tracker with live retrospective.                                                                  |
 | [DiskScope](apps/diskscope/README.md)       | JavaFX    | Interactive disk space analyzer.                                                                                   |
+| [CalcPad](apps/calcpad/README.md)           | JavaFX    | Keyboard-friendly calculator with BigDecimal precision.                                                            |
 
 ## Repository layout
 

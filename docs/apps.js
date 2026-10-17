@@ -102,5 +102,15 @@ const APPS = [
         image: "images/diskscope.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/diskscope",
         release: "https://github.com/vbforge/java-desktop-labs/releases/tag/diskscope-v1.0.0"
+    },
+    {
+        id: "calcpad",
+        name: "CalcPad",
+        framework: "JavaFX",
+        tagline: "Keyboard-friendly calculator with precise BigDecimal math, full decimal support, and no division-by-zero crashes.",
+        tags: ["JavaFX", "Math", "BigDecimal", "Maven"],
+        image: "images/calcpad.png",
+        source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/calcpad",
+        release: "https://github.com/vbforge/java-desktop-labs/releases/tag/calcpad-v1.0.0"
     }
 ];

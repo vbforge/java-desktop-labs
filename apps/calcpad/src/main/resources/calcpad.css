@@ -1,0 +1,99 @@
+.root-pane {
+    -fx-background-color: #0d1117;
+    -fx-border-color: #2a313c;
+    -fx-border-width: 1;
+}
+
+/* ---------- Custom Title Bar ---------- */
+.title-bar {
+    -fx-background-color: #161b22;
+    -fx-padding: 8 12;
+    -fx-border-color: transparent transparent #2a313c transparent;
+    -fx-border-width: 0 0 1 0;
+}
+
+.title-text {
+    -fx-text-fill: #8b949e;
+    -fx-font-family: "Segoe UI", sans-serif;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.close-btn {
+    -fx-background-color: transparent;
+    -fx-text-fill: #8b949e;
+    -fx-font-size: 16px;
+    -fx-padding: 0 4;
+    -fx-cursor: hand;
+}
+.close-btn:hover {
+    -fx-text-fill: #f85149;
+}
+
+/* ---------- Display ---------- */
+.display-area {
+    -fx-padding: 24 20;
+    -fx-border-color: transparent transparent #2a313c transparent;
+    -fx-border-width: 0 0 1 0;
+}
+
+.display-expression {
+    -fx-text-fill: #8b949e;
+    -fx-font-family: ui-monospace, Consolas, monospace;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-min-height: 20px;
+}
+
+.display-number {
+    -fx-text-fill: #e6edf3;
+    -fx-font-family: ui-monospace, Consolas, monospace;
+    -fx-font-size: 42px;
+    -fx-font-weight: bold;
+    -fx-letter-spacing: -1;
+}
+
+/* ---------- Grid & Buttons ---------- */
+.grid {
+    -fx-background-color: #161b22;
+}
+
+.btn {
+    -fx-background-color: #161b22;
+    -fx-text-fill: #e6edf3;
+    -fx-font-family: ui-monospace, Consolas, monospace;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 0;
+    -fx-border-color: #2a313c;
+    -fx-border-width: 1;
+    -fx-cursor: hand;
+}
+.btn:hover {
+    -fx-background-color: #1c2129;
+}
+.btn:pressed {
+    -fx-background-color: #2a313c;
+}
+
+.btn.op {
+    -fx-text-fill: #f89820;
+    -fx-background-color: #1a1f27;
+}
+.btn.op:hover {
+    -fx-background-color: #232a33;
+}
+
+.btn.clear {
+    -fx-text-fill: #f85149;
+}
+
+.btn.equals {
+    -fx-background-color: #f89820;
+    -fx-text-fill: #1a1206;
+    -fx-font-size: 24px;
+    -fx-border-color: #e8890c;
+}
+.btn.equals:hover {
+    -fx-background-color: #ffb455;
+}
