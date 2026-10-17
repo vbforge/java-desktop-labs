@@ -1,6 +1,6 @@
 # HomeShelf
 
-> Media library manager with switchable storage formats.
+> A sleek media library manager that lets you save your collection as JSON, XML, SQLite, or Binary files.
 
 ![HomeShelf screenshot](../../docs/images/homeshelf.png)
 
