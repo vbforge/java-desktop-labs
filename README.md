@@ -20,6 +20,7 @@ Each app is self-contained, open source, and runs on Windows, macOS and Linux.
 | 9  | [FocusSprint](apps/focus-sprint/README.md)  | JavaFX    | Single-day focus tracker with live retrospective.                                                                  |
 | 10 | [DiskScope](apps/diskscope/README.md)       | JavaFX    | Interactive disk space analyzer.                                                                                   |
 | 11 | [CalcPad](apps/calcpad/README.md)           | JavaFX    | Keyboard-friendly calculator with BigDecimal precision.                                                            |
+| 12 | [ChessMate](apps/chessmate/README.md)       | JavaFX    | Full-featured Chess with a Minimax AI, player-vs-player chess clocks, move history, and material-point scoring.    |
 
 ## Repository layout
 

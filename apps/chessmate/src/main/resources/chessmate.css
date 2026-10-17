@@ -1,0 +1,159 @@
+.root-pane {
+    -fx-background-color: #0d1117;
+}
+
+/* Board */
+.square-light { -fx-background-color: #5a6b7c; }
+.square-dark  { -fx-background-color: #2a313c; }
+.square-light:hover, .square-dark:hover { -fx-background-color: #3d4653; }
+
+.square-light.selected, .square-dark.selected {
+    -fx-border-color: #f89820;
+    -fx-border-width: 4;
+}
+.square-light.valid-move, .square-dark.valid-move {
+    -fx-background-color: rgba(248, 152, 32, 0.4);
+}
+.square-light.check, .square-dark.check {
+    -fx-background-color: #f85149;
+}
+
+.piece {
+    -fx-font-size: 48px;
+    -fx-font-family: "Segoe UI Symbol", "Arial Unicode MS", sans-serif;
+}
+.piece-w { -fx-text-fill: white; -fx-effect: dropshadow(one-pass-box, black, 2, 1.0, 1, 1); }
+.piece-b { -fx-text-fill: black; -fx-effect: dropshadow(one-pass-box, white, 2, 1.0, 1, 1); }
+
+/* Sidebar */
+.sidebar {
+    -fx-background-color: #161b22;
+    -fx-border-color: #2a313c;
+    -fx-border-width: 0 0 0 1;
+}
+
+.timer-box {
+    -fx-background-color: #1c2129;
+    -fx-border-color: #2a313c;
+    -fx-border-radius: 8;
+    -fx-padding: 12;
+}
+.timer-box.active {
+    -fx-border-color: #f89820;
+    -fx-background-color: rgba(248, 152, 32, 0.05);
+}
+.timer-name { -fx-text-fill: #8b949e; -fx-font-size: 12px; -fx-font-weight: bold; }
+.timer-text { -fx-text-fill: #e6edf3; -fx-font-family: monospace; -fx-font-size: 24px; -fx-font-weight: bold; }
+.timer-box.active .timer-text { -fx-text-fill: #f89820; }
+
+.status {
+    -fx-text-fill: #8b949e;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+/* ---------------- Combobox & Radio Dark Mode Fix ---------------- */
+.label { -fx-text-fill: #e6edf3; }
+
+.combo-box {
+    -fx-background-color: #1c2129;
+    -fx-border-color: #2a313c;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+}
+.combo-box .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #e6edf3;
+    -fx-padding: 4 8;
+}
+.combo-box .arrow,
+.combo-box .arrow-button {
+    -fx-background-color: transparent;
+}
+.combo-box .arrow {
+    -fx-background-color: #8b949e;
+}
+
+/* The Dropdown Popup */
+.combo-box-popup .list-view {
+    -fx-background-color: #1c2129;
+    -fx-border-color: #2a313c;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+}
+.combo-box-popup .list-cell {
+    -fx-background-color: #1c2129;
+    -fx-text-fill: #e6edf3;
+}
+.combo-box-popup .list-cell:filled:hover,
+.combo-box-popup .list-cell:filled:selected {
+    -fx-background-color: #1f3a5f;
+}
+
+.radio-button {
+    -fx-text-fill: #e6edf3;
+}
+.radio-button .radio {
+    -fx-background-color: #1c2129;
+    -fx-border-color: #2a313c;
+    -fx-border-width: 1;
+    -fx-border-radius: 10px;
+}
+.radio-button:selected .dot {
+    -fx-background-color: #f89820;
+}
+/* ---------------------------------------------------------------- */
+
+.btn-primary {
+    -fx-background-color: #f89820;
+    -fx-text-fill: #1a1206;
+    -fx-font-weight: bold;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 8 12;
+}
+.btn-primary:hover { -fx-background-color: #ffb455; }
+.btn-primary:disabled { -fx-opacity: 0.4; }
+
+.btn-danger {
+    -fx-background-color: #1c2129;
+    -fx-text-fill: #f85149;
+    -fx-border-color: rgba(248, 81, 73, 0.4);
+    -fx-font-weight: bold;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 8 12;
+}
+.btn-danger:hover { -fx-background-color: rgba(248, 81, 73, 0.1); -fx-border-color: #f85149; }
+.btn-danger:disabled { -fx-opacity: 0.4; }
+
+.button {
+    -fx-background-color: #1c2129;
+    -fx-text-fill: #e6edf3;
+    -fx-border-color: #2a313c;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 8 12;
+}
+.button:hover { -fx-background-color: #242b36; }
+.button:disabled { -fx-opacity: 0.4; }
+
+.history {
+    -fx-background-color: #1c2129;
+    -fx-border-color: #2a313c;
+    -fx-border-radius: 8;
+    -fx-font-family: monospace;
+}
+.history .list-cell {
+    -fx-text-fill: #e6edf3;
+    -fx-background-color: #1c2129;
+}
+
+.modal-bg {
+    -fx-background-color: #161b22;
+}
+.modal-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f89820;
+}

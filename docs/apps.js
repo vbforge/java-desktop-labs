@@ -112,5 +112,15 @@ const APPS = [
         image: "images/calcpad.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/calcpad",
         release: "https://github.com/vbforge/java-desktop-labs/releases/tag/calcpad-v1.0.0"
+    },
+    {
+        id: "chessmate",
+        name: "ChessMate",
+        framework: "JavaFX",
+        tagline: "Full-featured Chess with a Minimax AI, player-vs-player chess clocks, move history, and material-point scoring.",
+        tags: ["JavaFX", "Chess", "AI", "Minimax", "Maven"],
+        image: "images/chessmate.png",
+        source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/chessmate",
+        release: "https://github.com/vbforge/java-desktop-labs/releases/tag/chessmate-v1.0.0"
     }
 ];
