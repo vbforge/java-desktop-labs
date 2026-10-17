@@ -22,6 +22,7 @@ Each app is self-contained, open source, and runs on Windows, macOS and Linux.
 | 11 | [CalcPad](apps/calcpad/README.md)           | JavaFX    | Keyboard-friendly calculator with BigDecimal precision.                                                            |
 | 12 | [ChessMate](apps/chessmate/README.md)       | JavaFX    | Full-featured Chess with a Minimax AI, player-vs-player chess clocks, move history, and material-point scoring.    |
 | 13 | [ClickRush](apps/clickrush/README.md)       | JavaFX    | Reflex and clicking speed trainer with local high scores.    |
+| 14 | [AudioFlow](apps/audioflow/README.md)       | JavaFX    | Minimal dark-themed local audio player (accepts .mp3 and .wav).    |
 
 ## Repository layout
 

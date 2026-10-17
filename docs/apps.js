@@ -132,5 +132,15 @@ const APPS = [
         image: "images/clickrush.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/clickrush",
         release: "https://github.com/vbforge/java-desktop-labs/releases/tag/clickrush-v1.0.0"
+    },
+    {
+        id: "audioflow",
+        name: "AudioFlow",
+        framework: "JavaFX",
+        tagline: "Minimal dark-themed local audio player (accepts .mp3 and .wav).",
+        tags: ["JavaFX", "Media", "File I/O", "Maven"],
+        image: "images/audioflow.png",
+        source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/audioflow",
+        release: "https://github.com/vbforge/java-desktop-labs/releases/tag/audioflow-v1.0.0"
     }
 ];
