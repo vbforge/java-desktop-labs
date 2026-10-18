@@ -1,0 +1,161 @@
+.root-pane {
+    -fx-background-color: #0d1117;
+    -fx-border-color: #2a313c;
+    -fx-border-width: 1;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+/* Title Bar */
+.titlebar {
+    -fx-background-color: #1c2129;
+    -fx-border-color: transparent transparent #2a313c transparent;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 8 12;
+}
+.app-title {
+    -fx-text-fill: #e6edf3;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+.win-btn-close {
+    -fx-background-color: transparent;
+    -fx-text-fill: #8b949e;
+    -fx-font-size: 16px;
+    -fx-cursor: hand;
+}
+.win-btn-close:hover { -fx-text-fill: #f85149; }
+
+/* Tabs */
+.custom-tabs .tab-header-area .tab-header-background {
+    -fx-background-color: #161b22;
+    -fx-border-color: transparent transparent #2a313c transparent;
+    -fx-border-width: 0 0 1 0;
+}
+.custom-tabs .tab {
+    -fx-background-color: transparent;
+    -fx-padding: 10 25;
+}
+.custom-tabs .tab .tab-label {
+    -fx-text-fill: #8b949e;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+.custom-tabs .tab:selected .tab-label {
+    -fx-text-fill: #f89820;
+}
+.custom-tabs .tab:selected .focus-indicator {
+    -fx-border-color: transparent;
+}
+.custom-tabs .tab-header-area .headers-region .tab:selected .tab-container {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent transparent #f89820 transparent;
+    -fx-border-width: 0 0 2 0;
+}
+.custom-tabs .tab-content-area {
+    -fx-background-color: #0d1117;
+}
+
+/* Grid Inputs */
+.grid-input {
+    -fx-background-color: #1c2129;
+    -fx-text-fill: #f89820;
+    -fx-font-family: monospace;
+    -fx-font-size: 22px; /* Smaller font to fit 4-5 digits */
+    -fx-font-weight: bold;
+    -fx-border-color: #2a313c;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 0;
+}
+.grid-input:focused {
+    -fx-border-color: #f89820;
+}
+
+.grid-label {
+    -fx-background-color: #1c2129;
+    -fx-text-fill: #3fb950;
+    -fx-font-family: monospace;
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-border-color: #2a313c;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+}
+
+/* Buttons & Inputs */
+.btn {
+    -fx-background-color: #1c2129;
+    -fx-text-fill: #e6edf3;
+    -fx-border-color: #2a313c;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 8 16;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+.btn:hover { -fx-background-color: #242b36; }
+.btn-primary {
+    -fx-background-color: #f89820;
+    -fx-text-fill: #1a1206;
+    -fx-border-color: #f89820;
+}
+.btn-primary:hover { -fx-background-color: #ffb455; }
+
+.start-input {
+    -fx-background-color: #0d1117;
+    -fx-text-fill: #e6edf3;
+    -fx-border-color: #2a313c;
+    -fx-border-radius: 6;
+    -fx-padding: 8 12;
+    -fx-alignment: center;
+    -fx-font-family: monospace;
+}
+.start-input:focused { -fx-border-color: #f89820; }
+
+/* Verification Text Area */
+.verification-area {
+    -fx-background-color: #161b22;
+    -fx-text-fill: #3fb950;
+    -fx-font-family: monospace;
+    -fx-font-size: 13px;
+    -fx-border-color: #2a313c;
+    -fx-border-radius: 8;
+    -fx-padding: 10;
+    -fx-pref-height: 340px; /* Increased height so no scrolling is needed */
+}
+.verification-area .scroll-pane { -fx-background-color: transparent; }
+.verification-area .scroll-pane .viewport { -fx-background-color: transparent; }
+
+/* DARK SCROLLBAR FIX (Just in case) */
+.verification-area .scroll-bar:vertical,
+.verification-area .scroll-bar:horizontal {
+    -fx-background-color: transparent;
+}
+.verification-area .scroll-bar .track { -fx-background-color: transparent; }
+.verification-area .scroll-bar .thumb {
+    -fx-background-color: #2a313c;
+    -fx-background-radius: 4;
+}
+.verification-area .scroll-bar .thumb:hover { -fx-background-color: #3d4653; }
+.verification-area .scroll-bar .increment-button,
+.verification-area .scroll-bar .decrement-button {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+.verification-area .scroll-bar .increment-arrow,
+.verification-area .scroll-bar .decrement-arrow {
+    -fx-shape: " ";
+    -fx-padding: 0;
+}
+
+/* Modal */
+.modal-bg {
+    -fx-background-color: #161b22;
+    -fx-border-color: #2a313c;
+    -fx-border-width: 1;
+}
+.modal-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #f89820;
+}

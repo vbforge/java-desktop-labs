@@ -152,5 +152,15 @@ const APPS = [
         image: "images/homeshelf.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/homeshelf",
         release: "https://github.com/vbforge/java-desktop-labs/releases/tag/homeshelf-v1.0.0"
+    },
+    {
+        id: "squarecraft",
+        name: "SquareCraft",
+        framework: "JavaFX",
+        tagline: "A dual-mode magic square utility. Instantly generate mathematically perfect squares or solve partially filled ones.",
+        tags: ["JavaFX", "Math", "JUnit 5", "Maven"],
+        image: "images/squarecraft.png",
+        source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/squarecraft",
+        release: "https://github.com/vbforge/java-desktop-labs/releases/tags/squarecraft-v1.0.0"
     }
 ];
