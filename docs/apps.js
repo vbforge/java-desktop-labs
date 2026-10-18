@@ -161,6 +161,6 @@ const APPS = [
         tags: ["JavaFX", "Math", "JUnit 5", "Maven"],
         image: "images/squarecraft.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/squarecraft",
-        release: "https://github.com/vbforge/java-desktop-labs/releases/tags/squarecraft-v1.0.0"
+        release: "https://github.com/vbforge/java-desktop-labs/releases/tag/squarecraft-v1.0.0"
     }
 ];
