@@ -25,6 +25,7 @@ Each app is self-contained, open source, and runs on Windows, macOS and Linux.
 | 14 | [AudioFlow](apps/audioflow/README.md)       | JavaFX    | Minimal dark-themed local audio player (accepts .mp3 and .wav).    |
 | 15 | [HomeShelf](apps/homeshelf/README.md)       | JavaFX    | A sleek media library manager that lets you save your collection as JSON, XML, SQLite, or Binary files.    |
 | 16 | [SquareCraft](apps/squarecraft/README.md)       | JavaFX    | Magic Square (3x3) Generator and Solver with a dual-mode JavaFX interface (generate math perfect squares or solve partially filled ones).    |
+| 17 | [QuizMaster](apps/quizmaster/README.md)       | JavaFX    | Interactive quiz application with SQLite and JSON import.    |
 
 ## Repository layout
 

@@ -1,0 +1,194 @@
+.root-pane {
+    -fx-background-color: #0d1117;
+    -fx-border-color: #2a313c;
+    -fx-border-width: 1;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+/* Title Bar */
+.titlebar {
+    -fx-background-color: #1c2129;
+    -fx-border-color: transparent transparent #2a313c transparent;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 8 12;
+}
+.app-title {
+    -fx-text-fill: #e6edf3;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+.win-btn-close {
+    -fx-background-color: transparent;
+    -fx-text-fill: #8b949e;
+    -fx-font-size: 16px;
+    -fx-cursor: hand;
+}
+.win-btn-close:hover { -fx-text-fill: #f85149; }
+
+/* Screens */
+.screen {
+    -fx-padding: 40;
+    -fx-background-color: #0d1117;
+}
+
+/* Start Screen */
+.logo {
+    -fx-font-size: 48px;
+    -fx-font-weight: 800;
+    -fx-text-fill: #f89820;
+}
+.subtitle {
+    -fx-font-size: 16px;
+    -fx-text-fill: #8b949e;
+}
+.combo-box {
+    -fx-background-color: #1c2129;
+    -fx-border-color: #2a313c;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+}
+.combo-box .list-cell {
+    -fx-text-fill: #e6edf3;
+    -fx-padding: 8 12;
+}
+.combo-box-popup .list-view {
+    -fx-background-color: #1c2129;
+}
+.combo-box-popup .list-cell {
+    -fx-background-color: #1c2129;
+}
+.combo-box-popup .list-cell:hover {
+    -fx-background-color: #2a313c;
+}
+
+/* Buttons */
+.btn {
+    -fx-background-color: #1c2129;
+    -fx-text-fill: #e6edf3;
+    -fx-border-color: #2a313c;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 12 20;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+.btn:hover { -fx-background-color: #242b36; }
+.btn.primary {
+    -fx-background-color: #f89820;
+    -fx-text-fill: #1a1206;
+    -fx-border-color: #f89820;
+}
+.btn.primary:hover { -fx-background-color: #ffb455; }
+
+/* Quiz Screen */
+.question-text {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #e6edf3;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+}
+
+/* Fix for invisible ProgressBar */
+.timer-bar {
+    -fx-pref-height: 8;
+    -fx-min-height: 8;
+}
+.timer-bar > .track {
+    -fx-background-color: #1c2129;
+    -fx-background-radius: 4;
+    -fx-background-insets: 0;
+}
+.timer-bar > .bar {
+    -fx-background-color: #f89820;
+    -fx-background-radius: 4;
+    -fx-background-insets: 0;
+    -fx-padding: 4; /* Forces the bar to fill the track visually */
+}
+
+.option-btn {
+    -fx-background-color: #161b22;
+    -fx-border-color: #2a313c;
+    -fx-border-radius: 12;
+    -fx-background-radius: 12;
+    -fx-cursor: hand;
+    -fx-padding: 15;
+}
+.option-btn:hover {
+    -fx-border-color: #f89820;
+    -fx-background-color: #1c2129;
+}
+.option-letter {
+    -fx-background-color: #1c2129;
+    -fx-text-fill: #f89820;
+    -fx-font-weight: bold;
+    -fx-min-width: 30;
+    -fx-min-height: 30;
+    -fx-background-radius: 15;
+    -fx-alignment: center;
+}
+.option-btn .label {
+    -fx-text-fill: #e6edf3;
+    -fx-font-size: 16px;
+}
+
+.option-btn.correct { -fx-border-color: #3fb950; -fx-background-color: rgba(63,185,80,0.1); }
+.option-btn.correct .option-letter { -fx-background-color: #3fb950; -fx-text-fill: #fff; }
+.option-btn.wrong { -fx-border-color: #f85149; -fx-background-color: rgba(248,81,73,0.1); }
+.option-btn.wrong .option-letter { -fx-background-color: #f85149; -fx-text-fill: #fff; }
+
+/* Results Screen */
+.score-circle {
+    -fx-min-width: 120;
+    -fx-min-height: 120;
+    -fx-border-color: #f89820;
+    -fx-border-width: 6;
+    -fx-border-radius: 60;
+    -fx-background-radius: 60;
+    -fx-font-size: 38px;
+    -fx-font-weight: bold;
+    -fx-font-family: monospace;
+    -fx-text-fill: #e6edf3;
+    -fx-alignment: center;
+    -fx-padding: 10;
+}
+.results-title { -fx-font-size: 24px; -fx-text-fill: #e6edf3; }
+.results-sub { -fx-font-size: 14px; -fx-text-fill: #8b949e; }
+
+/* Retrospective List */
+.review-list {
+    -fx-background-color: #161b22;
+    -fx-border-color: #2a313c;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+}
+.review-list .list-cell {
+    -fx-background-color: transparent;
+    -fx-padding: 4 8;
+}
+.review-list .list-cell:filled:hover {
+    -fx-background-color: #1c2129;
+}
+
+/* Dark Scrollbars for Review List */
+.review-list .scroll-bar:vertical,
+.review-list .scroll-bar:horizontal {
+    -fx-background-color: transparent;
+}
+.review-list .scroll-bar .track { -fx-background-color: transparent; }
+.review-list .scroll-bar .thumb {
+    -fx-background-color: #2a313c;
+    -fx-background-radius: 4;
+}
+.review-list .scroll-bar .thumb:hover { -fx-background-color: #3d4653; }
+.review-list .scroll-bar .increment-button,
+.review-list .scroll-bar .decrement-button {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+.review-list .scroll-bar .increment-arrow,
+.review-list .scroll-bar .decrement-arrow {
+    -fx-shape: " ";
+    -fx-padding: 0;
+}
