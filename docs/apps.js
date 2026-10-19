@@ -172,5 +172,15 @@ const APPS = [
         image: "images/quizmaster.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/quizmaster",
         release: "https://github.com/vbforge/java-desktop-labs/releases/tag/quizmaster-v1.0.0"
+    },
+    {
+        id: "word-counter",
+        name: "Word Counter",
+        framework: "Swing",
+        tagline: "Analyze text with live updates and visual charts. Filter stop words and see your true vocabulary with a dark-themed JFreeChart.",
+        tags: ["Swing", "JFreeChart", "JUnit 5", "Maven"],
+        image: "images/word-counter.png",
+        source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/word-counter",
+        release: "https://github.com/vbforge/java-desktop-labs/releases/tag/word-counter-v1.0.0"
     }
 ];

@@ -26,6 +26,7 @@ Each app is self-contained, open source, and runs on Windows, macOS and Linux.
 | 15 | [HomeShelf](apps/homeshelf/README.md)       | JavaFX    | A sleek media library manager that lets you save your collection as JSON, XML, SQLite, or Binary files.    |
 | 16 | [SquareCraft](apps/squarecraft/README.md)       | JavaFX    | Magic Square (3x3) Generator and Solver with a dual-mode JavaFX interface (generate math perfect squares or solve partially filled ones).    |
 | 17 | [QuizMaster](apps/quizmaster/README.md)       | JavaFX    | Interactive quiz application with SQLite and JSON import.    |
+| 18 | [Word Counter](apps/word-counter/README.md)       | Swing    | A small desktop application that analyzes text and reports word statistics (with live updates).    |
 
 ## Repository layout
 
