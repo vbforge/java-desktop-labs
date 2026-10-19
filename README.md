@@ -27,6 +27,7 @@ Each app is self-contained, open source, and runs on Windows, macOS and Linux.
 | 16 | [SquareCraft](apps/squarecraft/README.md)       | JavaFX    | Magic Square (3x3) Generator and Solver with a dual-mode JavaFX interface (generate math perfect squares or solve partially filled ones).    |
 | 17 | [QuizMaster](apps/quizmaster/README.md)       | JavaFX    | Interactive quiz application with SQLite and JSON import.    |
 | 18 | [Word Counter](apps/word-counter/README.md)       | Swing    | A small desktop application that analyzes text and reports word statistics (with live updates).    |
+| 19 | [AtlasDesk](apps/atlasdesk/README.md)       | JavaFX    | Country database with instant search, cards, flags, square km and country's position on the World Map.    |
 
 ## Repository layout
 

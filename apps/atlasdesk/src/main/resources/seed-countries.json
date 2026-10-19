@@ -1,0 +1,19 @@
+[
+  { "code": "ES", "name": "Spain", "continent": "Europe", "capital": "Madrid",
+    "countryPopulation": 47415750, "capitalPopulation": 3223000, "area": 505990, "latitude": 40.4637, "longitude": -3.7492 },
+  { "code": "UA", "name": "Ukraine", "continent": "Europe", "capital": "Kyiv",
+    "countryPopulation": 44385150, "capitalPopulation": 2814000, "area": 603500, "latitude": 48.3794, "longitude": 31.1656 },
+  { "code": "GB", "name": "United Kingdom", "continent": "Europe", "capital": "London",
+    "countryPopulation": 67886010, "capitalPopulation": 7800000, "area": 243610, "latitude": 55.3781, "longitude": -3.4360 },
+
+  { "code": "JP", "name": "Japan", "continent": "Asia", "capital": "Tokyo",
+    "countryPopulation": 124500000, "capitalPopulation": 13960000, "area": 377975, "latitude": 36.2048, "longitude": 138.2529 },
+  { "code": "EG", "name": "Egypt", "continent": "Africa", "capital": "Cairo",
+    "countryPopulation": 112700000, "capitalPopulation": 10100000, "area": 1002450, "latitude": 26.8206, "longitude": 30.8025 },
+  { "code": "US", "name": "United States", "continent": "North America", "capital": "Washington, D.C.",
+    "countryPopulation": 334900000, "capitalPopulation": 689545, "area": 9833517, "latitude": 37.0902, "longitude": -95.7129 },
+  { "code": "BR", "name": "Brazil", "continent": "South America", "capital": "Brasília",
+    "countryPopulation": 216400000, "capitalPopulation": 2817381, "area": 8515767, "latitude": -14.2350, "longitude": -51.9253 },
+  { "code": "AU", "name": "Australia", "continent": "Oceania", "capital": "Canberra",
+    "countryPopulation": 26640000, "capitalPopulation": 456000, "area": 7692024, "latitude": -25.2744, "longitude": 133.7751 }
+]

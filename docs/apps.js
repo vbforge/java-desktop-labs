@@ -182,5 +182,15 @@ const APPS = [
         image: "images/word-counter.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/word-counter",
         release: "https://github.com/vbforge/java-desktop-labs/releases/tag/word-counter-v1.0.0"
+    },
+    {
+        id: "atlasdesk",
+        name: "AtlasDesk",
+        framework: "JavaFX",
+        tagline: "Browse countries with instant search, continent filters and flags. Add your own countries from JSON, then see each one on a world map.",
+        tags: ["JavaFX", "SQLite", "Jackson", "Maven"],
+        image: "images/atlasdesk.png",
+        source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/atlasdesk",
+        release: "https://github.com/vbforge/java-desktop-labs/releases/tag/atlasdesk-v1.0.0"
     }
 ];
