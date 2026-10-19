@@ -4,6 +4,8 @@
 
 ![QuizMaster screenshot](../../docs/images/quizmaster.png)
 
+![QuizMaster screenshot](screenshots/pic.png)
+
 ![Java](https://img.shields.io/badge/Java-21-orange)
 ![JavaFX](https://img.shields.io/badge/JavaFX-21-blue)
 ![SQLite](https://img.shields.io/badge/SQLite-3.x-003B57)

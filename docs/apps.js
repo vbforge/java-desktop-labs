@@ -162,5 +162,15 @@ const APPS = [
         image: "images/squarecraft.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/squarecraft",
         release: "https://github.com/vbforge/java-desktop-labs/releases/tag/squarecraft-v1.0.0"
+    },
+    {
+        id: "quizmaster",
+        name: "QuizMaster",
+        framework: "JavaFX",
+        tagline: "Interactive quiz application with SQLite storage. Import your own JSON question banks, play against a smooth 15-second timer, and review your mistakes in the retrospective.",
+        tags: ["JavaFX", "SQLite", "Jackson", "JSON", "Maven"],
+        image: "images/quizmaster.png",
+        source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/quizmaster",
+        release: "https://github.com/vbforge/java-desktop-labs/releases/tag/quizmaster-v1.0.0"
     }
 ];
