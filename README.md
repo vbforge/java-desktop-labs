@@ -2,6 +2,7 @@
 
 A collection of small desktop applications built in Java — JavaFX and Swing.
 Each app is self-contained, open source, and runs on Windows, macOS and Linux.
+Covering algorithms, databases, networking, games, productivity tools, etc.
 
 **→ [Browse the apps](https://vbforge.github.io/java-desktop-labs/)**
 
