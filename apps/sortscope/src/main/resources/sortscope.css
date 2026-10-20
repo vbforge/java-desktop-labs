@@ -1,0 +1,194 @@
+.root-pane {
+    -fx-background-color: #0d1117;
+    -fx-border-color: #2a313c;
+    -fx-border-width: 1;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.titlebar {
+    -fx-background-color: #1c2129;
+    -fx-border-color: transparent transparent #2a313c transparent;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 8 12;
+}
+.app-title {
+    -fx-text-fill: #e6edf3;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+.win-btn-close {
+    -fx-background-color: transparent;
+    -fx-text-fill: #8b949e;
+    -fx-font-size: 16px;
+    -fx-cursor: hand;
+}
+.win-btn-close:hover { -fx-text-fill: #f85149; }
+
+/* Sidebar */
+.sidebar {
+    -fx-background-color: #161b22;
+    -fx-border-color: transparent #2a313c transparent transparent;
+    -fx-border-width: 0 1 0 0;
+    -fx-padding: 20;
+}
+.section-label {
+    -fx-text-fill: #8b949e;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}
+.stat-label {
+    -fx-text-fill: #8b949e;
+    -fx-font-size: 13px;
+}
+.stat-value {
+    -fx-text-fill: #f89820;
+    -fx-font-family: monospace;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+.stats-box {
+    -fx-background-color: #0d1117;
+    -fx-border-color: #2a313c;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 16;
+    -fx-margin: 20 0 0 0;
+}
+
+/* Main ComboBox Styling */
+.styled-combo {
+    -fx-background-color: #1c2129;
+    -fx-border-color: #2a313c;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-font-weight: bold;
+    -fx-text-fill: #e6edf3;
+    -fx-cursor: hand;
+}
+.styled-combo .list-cell {
+    -fx-text-fill: #e6edf3;
+    -fx-background-color: transparent;
+    -fx-padding: 6 12;
+}
+.styled-combo .arrow {
+    -fx-background-color: #8b949e;
+}
+
+/* Dropdown Popup - Global targeting for dark mode */
+.combo-box-popup .list-view {
+    -fx-background-color: #1c2129;
+    -fx-control-inner-background: #1c2129;
+    -fx-border-color: #2a313c;
+}
+.combo-box-popup .list-view .virtual-flow,
+.combo-box-popup .list-view .clipped-container,
+.combo-box-popup .list-view .sheet {
+    -fx-background-color: #1c2129;
+}
+.combo-box-popup .list-cell {
+    -fx-background-color: #1c2129;
+    -fx-text-fill: #e6edf3;
+    -fx-padding: 6 12;
+}
+.combo-box-popup .list-cell:hover,
+.combo-box-popup .list-cell:filled:selected {
+    -fx-background-color: #2a313c;
+    -fx-text-fill: #f89820;
+}
+
+/* Sliders */
+.slider .track {
+    -fx-background-color: #2a313c;
+    -fx-pref-height: 4;
+}
+.slider .thumb {
+    -fx-background-color: #f89820;
+    -fx-pref-width: 12;
+    -fx-pref-height: 12;
+}
+
+/* Buttons */
+.btn {
+    -fx-background-color: #1c2129;
+    -fx-text-fill: #e6edf3;
+    -fx-border-color: #2a313c;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 10;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+.btn:hover { -fx-background-color: #2a313c; }
+.btn:disabled { -fx-opacity: 0.5; }
+
+.btn-primary {
+    -fx-background-color: #f89820;
+    -fx-text-fill: #1a1206;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 10;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+.btn-primary:hover { -fx-background-color: #ffb455; }
+.btn-primary:disabled { -fx-opacity: 0.5; }
+
+/* Visualizer Area */
+.visualizer {
+    -fx-background-color: #0d1117;
+    -fx-padding: 0;
+}
+/* Modal Background */
+.modal-bg {
+    -fx-background-color: #161b22;
+    -fx-border-color: #2a313c;
+    -fx-border-width: 1;
+    -fx-border-radius: 8;
+}
+.modal-title {
+    -fx-text-fill: #f89820;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+/* Theory Text Area */
+.theory-text {
+    -fx-background-color: #0d1117;
+    -fx-control-inner-background: #0d1117; /* Crucial for TextArea background */
+    -fx-text-fill: #e6edf3; /* Light text */
+    -fx-font-family: monospace;
+    -fx-font-size: 14px; /* Slightly larger text */
+    -fx-border-color: #2a313c;
+    -fx-border-radius: 6;
+    -fx-padding: 10;
+}
+
+/* TextArea internal structure overrides */
+.theory-text .content {
+    -fx-background-color: #0d1117;
+}
+.theory-text .scroll-pane {
+    -fx-background-color: transparent;
+}
+.theory-text .scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+/* Scrollbar inside TextArea */
+.theory-text .scroll-bar:vertical,
+.theory-text .scroll-bar:horizontal {
+    -fx-background-color: #0d1117;
+}
+.theory-text .scroll-bar .track {
+    -fx-background-color: transparent;
+}
+.theory-text .scroll-bar .thumb {
+    -fx-background-color: #2a313c;
+    -fx-background-radius: 4;
+}
+.theory-text .scroll-bar .increment-button,
+.theory-text .scroll-bar .decrement-button {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}

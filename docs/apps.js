@@ -212,5 +212,15 @@ const APPS = [
         image: "images/snakebyte.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/snakebyte",
         release: "https://github.com/vbforge/java-desktop-labs/releases/tag/snakebyte-v1.0.0"
+    },
+    {
+        id: "sortscope",
+        name: "SortScope",
+        framework: "JavaFX",
+        tagline: "An interactive educational tool to visualize 6 different sorting algorithms. Features live stats, pause/resume, and built-in Big-O theory.",
+        tags: ["JavaFX", "Algorithms", "Education", "JUnit 5", "Maven"],
+        image: "images/sortscope.png",
+        source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/sortscope",
+        release: "https://github.com/vbforge/java-desktop-labs/releases/tag/sortscope-v1.0.0"
     }
 ];
