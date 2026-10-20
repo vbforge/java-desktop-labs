@@ -192,5 +192,15 @@ const APPS = [
         image: "images/atlasdesk.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/atlasdesk",
         release: "https://github.com/vbforge/java-desktop-labs/releases/tag/atlasdesk-v1.0.0"
+    },
+    {
+        id: "tic-tac-pro",
+        name: "TicTacPro",
+        framework: "JavaFX",
+        tagline: "Classic Tic-Tac-Toe rebuilt with an Unbeatable Minimax AI, Player vs Player mode, and a sleek dark UI.",
+        tags: ["JavaFX", "Game", "Minimax AI", "JUnit 5", "Maven"],
+        image: "images/tic-tac-pro.png",
+        source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/tic-tac-pro",
+        release: "https://github.com/vbforge/java-desktop-labs/releases/tag/tic-tac-pro-v1.0.0"
     }
 ];

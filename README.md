@@ -28,6 +28,7 @@ Each app is self-contained, open source, and runs on Windows, macOS and Linux.
 | 17 | [QuizMaster](apps/quizmaster/README.md)       | JavaFX    | Interactive quiz application with SQLite and JSON import.    |
 | 18 | [Word Counter](apps/word-counter/README.md)       | Swing    | A small desktop application that analyzes text and reports word statistics (with live updates).    |
 | 19 | [AtlasDesk](apps/atlasdesk/README.md)       | JavaFX    | Country database with instant search, cards, flags, square km and country's position on the World Map.    |
+| 20 | [TicTacPro](apps/tic-tac-pro/README.md)       | JavaFX    | Tic-Tac-Toe with Minimax AI and dark theme.    |
 
 ## Repository layout
 
