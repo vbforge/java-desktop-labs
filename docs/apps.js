@@ -232,5 +232,15 @@ const APPS = [
         image: "images/pongx.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/pongx",
         release: "https://github.com/vbforge/java-desktop-labs/releases/tag/pongx-v1.0.0"
+    },
+    {
+        id: "teamcraft",
+        name: "TeamCraft",
+        framework: "JavaFX",
+        tagline: "Employee management system with SQLite persistence, live dashboard stats, instant search, sortable columns, and CSV export.",
+        tags: ["JavaFX", "SQLite", "CRUD", "JUnit 5", "Maven"],
+        image: "images/teamcraft.png",
+        source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/teamcraft",
+        release: "https://github.com/vbforge/java-desktop-labs/releases/tag/teamcraft-v1.0.0"
     }
 ];

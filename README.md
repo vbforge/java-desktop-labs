@@ -33,6 +33,7 @@ Covering algorithms, databases, networking, games, productivity tools, etc.
 | 21 | [SnakeByte](apps/snakebyte/README.md)       | JavaFX    | Classic Snake game with JavaFX and an AnimationTimer.    |
 | 22 | [SortScope](apps/sortscope/README.md)       | JavaFX    |  Visual sorting algorithms with real-time statistics.    |
 | 23 | [PongX](apps/pongx/README.md)       | JavaFX    |  Classic Pong rebuilt with JavaFX and an AI opponent.    |
+| 24 | [TeamCraft](apps/teamcraft/README.md)       | JavaFX    |  Employee management system with SQLite and CSV export.    |
 
 ## Repository layout
 
