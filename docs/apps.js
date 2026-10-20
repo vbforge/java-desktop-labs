@@ -242,5 +242,15 @@ const APPS = [
         image: "images/teamcraft.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/teamcraft",
         release: "https://github.com/vbforge/java-desktop-labs/releases/tag/teamcraft-v1.0.0"
+    },
+    {
+        id: "temptrack",
+        name: "TempTrack",
+        framework: "JavaFX",
+        tagline: "Live weather dashboard with a 7-day forecast and interactive hourly charts. Save favorite cities in SQLite and track conditions in each city's local time.",
+        tags: ["JavaFX", "SQLite", "REST API", "Charts", "JUnit 5", "Maven"],
+        image: "images/temptrack.png",
+        source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/temptrack",
+        release: "https://github.com/vbforge/java-desktop-labs/releases/tag/temptrack-v1.0.0"
     }
 ];

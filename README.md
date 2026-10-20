@@ -34,6 +34,7 @@ Covering algorithms, databases, networking, games, productivity tools, etc.
 | 22 | [SortScope](apps/sortscope/README.md)       | JavaFX    |  Visual sorting algorithms with real-time statistics.    |
 | 23 | [PongX](apps/pongx/README.md)       | JavaFX    |  Classic Pong rebuilt with JavaFX and an AI opponent.    |
 | 24 | [TeamCraft](apps/teamcraft/README.md)       | JavaFX    |  Employee management system with SQLite and CSV export.    |
+| 25 | [TempTrack](apps/temptrack/README.md)       | JavaFX    |  Live weather dashboard with 7-day forecast and interactive charts.    |
 
 ## Repository layout
 
