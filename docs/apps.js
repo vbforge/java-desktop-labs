@@ -202,5 +202,15 @@ const APPS = [
         image: "images/tic-tac-pro.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/tic-tac-pro",
         release: "https://github.com/vbforge/java-desktop-labs/releases/tag/tic-tac-pro-v1.0.0"
+    },
+    {
+        id: "snakebyte",
+        name: "SnakeByte",
+        framework: "JavaFX",
+        tagline: "A modern rebuild of the classic Snake game. Features 5 speed levels, custom keybindings, pause menus, and smooth Canvas rendering.",
+        tags: ["JavaFX", "Game", "Canvas", "JUnit 5", "Maven"],
+        image: "images/snakebyte.png",
+        source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/snakebyte",
+        release: "https://github.com/vbforge/java-desktop-labs/releases/tag/snakebyte-v1.0.0"
     }
 ];

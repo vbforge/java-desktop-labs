@@ -1,0 +1,182 @@
+/* =========================================
+   BASE & WINDOW
+   ========================================= */
+.root-pane {
+    -fx-background-color: #0d1117;
+    -fx-border-color: #2a313c;
+    -fx-border-width: 1;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+/* Titlebar */
+.titlebar {
+    -fx-background-color: #1c2129;
+    -fx-border-color: transparent transparent #2a313c transparent;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 8 12;
+}
+.app-title {
+    -fx-text-fill: #e6edf3;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+.win-btn-close {
+    -fx-background-color: transparent;
+    -fx-text-fill: #8b949e;
+    -fx-font-size: 16px;
+    -fx-cursor: hand;
+}
+.win-btn-close:hover { -fx-text-fill: #f85149; }
+
+/* =========================================
+   HEADER & SCORES
+   ========================================= */
+.header {
+    -fx-background-color: #161b22;
+    -fx-border-color: #2a313c;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 16 20;
+}
+.score-label {
+    -fx-text-fill: #8b949e;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}
+.score-value {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-font-family: monospace;
+    -fx-text-fill: #f89820;
+}
+
+/* =========================================
+   SPEED COMBOBOX (THE FIX)
+   ========================================= */
+.speed-combo {
+    -fx-background-color: #1c2129;
+    -fx-border-color: #2a313c;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+.speed-combo .list-cell {
+    -fx-text-fill: #f89820;
+    -fx-font-size: 14px;
+    -fx-padding: 4 8;
+    -fx-background-color: transparent;
+}
+.speed-combo .arrow {
+    -fx-background-color: #8b949e;
+}
+
+/* Dropdown Popup - Using the correct JavaFX class */
+.combo-box-popup .list-view {
+    -fx-background-color: #1c2129;
+    -fx-control-inner-background: #1c2129; /* Forces internal list cells dark */
+    -fx-border-color: #2a313c;
+    -fx-border-width: 1;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.5), 10, 0, 0, 4);
+}
+.combo-box-popup .list-view .virtual-flow,
+.combo-box-popup .list-view .clipped-container,
+.combo-box-popup .list-view .sheet,
+.combo-box-popup .list-view .viewport {
+    -fx-background-color: #1c2129;
+}
+.combo-box-popup .list-cell {
+    -fx-background-color: #1c2129;
+    -fx-text-fill: #f89820;
+    -fx-padding: 6 12;
+    -fx-font-size: 14px;
+}
+.combo-box-popup .list-cell:hover,
+.combo-box-popup .list-cell:filled:selected {
+    -fx-background-color: #2a313c;
+    -fx-text-fill: #f89820;
+}
+
+/* =========================================
+   GAME AREA & OVERLAY
+   ========================================= */
+.game-area {
+    -fx-background-color: #0d1117;
+}
+.overlay {
+    -fx-background-color: rgba(13, 17, 23, 0.85);
+    -fx-background-radius: 8;
+}
+.game-over-title {
+    -fx-text-fill: #f85149;
+    -fx-font-size: 32px;
+    -fx-font-weight: 800;
+}
+.final-score-text {
+    -fx-text-fill: #e6edf3;
+    -fx-font-size: 16px;
+}
+
+/* =========================================
+   FOOTER
+   ========================================= */
+.footer {
+    -fx-background-color: #161b22;
+    -fx-border-color: #2a313c transparent transparent transparent;
+    -fx-border-width: 1 0 0 0;
+    -fx-padding: 16;
+}
+.footer-hint {
+    -fx-text-fill: #8b949e;
+    -fx-font-size: 12px;
+}
+
+/* =========================================
+   BUTTONS & MODALS
+   ========================================= */
+.btn {
+    -fx-background-color: #1c2129;
+    -fx-text-fill: #e6edf3;
+    -fx-border-color: #2a313c;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 6 12;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+.btn:hover {
+    -fx-background-color: #2a313c;
+}
+
+.btn-primary {
+    -fx-background-color: #f89820;
+    -fx-text-fill: #1a1206;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 10 24;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+.btn-primary:hover {
+    -fx-background-color: #ffb455;
+}
+
+/* Modal Background */
+.modal-bg {
+    -fx-background-color: #161b22;
+    -fx-border-color: #2a313c;
+    -fx-border-width: 1;
+    -fx-border-radius: 8;
+}
+.modal-title {
+    -fx-text-fill: #f89820;
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+.detail-label {
+    -fx-text-fill: #8b949e;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
