@@ -1,0 +1,82 @@
+.root-pane {
+    -fx-background-color: #0d1117;
+    -fx-border-color: #2a313c;
+    -fx-border-width: 1;
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+.titlebar {
+    -fx-background-color: #1c2129;
+    -fx-border-color: transparent transparent #2a313c transparent;
+    -fx-border-width: 0 0 1 0;
+    -fx-padding: 8 12;
+}
+.app-title {
+    -fx-text-fill: #e6edf3;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+.win-btn-close {
+    -fx-background-color: transparent;
+    -fx-text-fill: #8b949e;
+    -fx-font-size: 16px;
+    -fx-cursor: hand;
+}
+.win-btn-close:hover { -fx-text-fill: #f85149; }
+
+/* Overlays */
+.overlay {
+    -fx-background-color: rgba(13, 17, 23, 0.85);
+    -fx-backdrop-filter: blur(4px);
+}
+.overlay-title {
+    -fx-text-fill: #f89820;
+    -fx-font-size: 48px;
+    -fx-font-weight: 800;
+    -fx-font-family: monospace;
+}
+.overlay-sub {
+    -fx-text-fill: #8b949e;
+    -fx-font-size: 16px;
+    -fx-padding: 0 0 10 0;
+}
+
+/* Buttons */
+.btn {
+    -fx-background-color: #1c2129;
+    -fx-text-fill: #e6edf3;
+    -fx-border-color: #2a313c;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 10 24;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-min-width: 200px;
+}
+.btn:hover { -fx-background-color: #2a313c; }
+
+.btn-primary {
+    -fx-background-color: #f89820;
+    -fx-text-fill: #1a1206;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 10 24;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-min-width: 200px;
+}
+.btn-primary:hover { -fx-background-color: #ffb455; }
+
+/* Controls Legend */
+.control-key {
+    -fx-text-fill: #e6edf3;
+    -fx-font-family: monospace;
+    -fx-font-size: 14px;
+    -fx-background-color: #1c2129;
+    -fx-border-color: #2a313c;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-padding: 6 12;
+}

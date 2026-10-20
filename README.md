@@ -31,6 +31,7 @@ Each app is self-contained, open source, and runs on Windows, macOS and Linux.
 | 20 | [TicTacPro](apps/tic-tac-pro/README.md)       | JavaFX    | Tic-Tac-Toe with Minimax AI and dark theme.    |
 | 21 | [SnakeByte](apps/snakebyte/README.md)       | JavaFX    | Classic Snake game with JavaFX and an AnimationTimer.    |
 | 22 | [SortScope](apps/sortscope/README.md)       | JavaFX    |  Visual sorting algorithms with real-time statistics.    |
+| 23 | [PongX](apps/pongx/README.md)       | JavaFX    |  Classic Pong rebuilt with JavaFX and an AI opponent.    |
 
 ## Repository layout
 

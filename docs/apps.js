@@ -222,5 +222,15 @@ const APPS = [
         image: "images/sortscope.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/sortscope",
         release: "https://github.com/vbforge/java-desktop-labs/releases/tag/sortscope-v1.0.0"
+    },
+    {
+        id: "pongx",
+        name: "PongX",
+        framework: "JavaFX",
+        tagline: "Classic Pong rebuilt for the modern era. Features dynamic ball physics, local multiplayer, and an adjustable AI opponent.",
+        tags: ["JavaFX", "Game", "Canvas", "JUnit 5", "Maven"],
+        image: "images/pongx.png",
+        source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/pongx",
+        release: "https://github.com/vbforge/java-desktop-labs/releases/tag/pongx-v1.0.0"
     }
 ];
