@@ -252,5 +252,15 @@ const APPS = [
         image: "images/temptrack.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/temptrack",
         release: "https://github.com/vbforge/java-desktop-labs/releases/tag/temptrack-v1.0.0"
+    },
+    {
+        id: "rectsolve",
+        name: "RectSolve",
+        framework: "JavaFX",
+        tagline: "A geometric tool that solves for the missing area of a 4-way split rectangle using the diagonal product invariant.",
+        tags: ["JavaFX", "Math", "Education", "JUnit 5", "Maven"],
+        image: "images/rectsolve.png",
+        source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/rectsolve",
+        release: "https://github.com/vbforge/java-desktop-labs/releases/tag/rectsolve-v1.0.0"
     }
 ];
