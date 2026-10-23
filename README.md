@@ -38,6 +38,7 @@ Covering algorithms, databases, networking, games, productivity tools, etc.
 | 26 | [RectSolve](apps/rectsolve/README.md)       | JavaFX    |  Solve for the missing area of a 4-way split rectangle.    |
 | 27 | [DietaryTrack](apps/dietarytrack/README.md)       | JavaFX    |  Daily dietary and habit tracker with SQLite and CSV export.    |
 | 28 | [SudokuForge](apps/sudokuforge/README.md)       | JavaFX    |  Sudoku generator and animated backtracking solver.    |
+| 29 | [FitApp](apps/fitapp/README.md)       | JavaFX    |  Local-first fitness and workout tracker. Java 21, JavaFX 21, SQLite, JUnit 5, Maven.    |
 
 ## Repository layout
 

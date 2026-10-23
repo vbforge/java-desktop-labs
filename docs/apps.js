@@ -282,5 +282,15 @@ const APPS = [
         image: "images/sudokuforge.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/sudokuforge",
         release: "https://github.com/vbforge/java-desktop-labs/releases/tag/sudokuforge-v1.0.0"
+    },
+    {
+        id: "fitapp",
+        name: "FitApp",
+        framework: "JavaFX",
+        tagline: "Local-first fitness and workout tracker. Java 21, JavaFX 21, SQLite, JUnit 5, Maven.",
+        tags: ["JavaFX", "JUnit 5", "Maven", "CRUD", "Slides Animation", "Login/Logout", "salted SHA-256", "Workout manager"],
+        image: "images/fitapp.png",
+        source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/fitapp",
+        release: "https://github.com/vbforge/java-desktop-labs/releases/tag/fitapp-v1.0.0"
     }
 ];
