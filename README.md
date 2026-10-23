@@ -36,7 +36,7 @@ Covering algorithms, databases, networking, games, productivity tools, etc.
 | 24 | [TeamCraft](apps/teamcraft/README.md)       | JavaFX    |  Employee management system with SQLite and CSV export.    |
 | 25 | [TempTrack](apps/temptrack/README.md)       | JavaFX    |  Live weather dashboard with 7-day forecast and interactive charts.    |
 | 26 | [RectSolve](apps/rectsolve/README.md)       | JavaFX    |  Solve for the missing area of a 4-way split rectangle.    |
-| 26 | [DietaryTrack](apps/dietarytrack/README.md)       | JavaFX    |  Daily dietary and habit tracker with SQLite and CSV export.    |
+| 27 | [DietaryTrack](apps/dietarytrack/README.md)       | JavaFX    |  Daily dietary and habit tracker with SQLite and CSV export.    |
 
 ## Repository layout
 
