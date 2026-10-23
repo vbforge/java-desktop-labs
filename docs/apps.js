@@ -272,5 +272,15 @@ const APPS = [
         image: "images/dietarytrack.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/dietarytrack",
         release: "https://github.com/vbforge/java-desktop-labs/releases/tag/dietarytrack-v1.0.0"
+    },
+    {
+        id: "sudokuforge",
+        name: "SudokuForge",
+        framework: "JavaFX",
+        tagline: "Sudoku generator and animated backtracking visualizer. Watch the algorithm try, place, and backtrack in real-time.",
+        tags: ["JavaFX", "Algorithms", "Game", "JUnit 5", "Maven"],
+        image: "images/sudokuforge.png",
+        source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/sudokuforge",
+        release: "https://github.com/vbforge/java-desktop-labs/releases/tag/sudokuforge-v1.0.0"
     }
 ];
