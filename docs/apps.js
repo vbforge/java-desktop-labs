@@ -262,5 +262,15 @@ const APPS = [
         image: "images/rectsolve.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/rectsolve",
         release: "https://github.com/vbforge/java-desktop-labs/releases/tag/rectsolve-v1.0.0"
+    },
+    {
+        id: "dietarytrack",
+        name: "DietaryTrack",
+        framework: "JavaFX",
+        tagline: "Daily dietary and habit tracker with local SQLite storage, CSV export, real-time validation, and a custom borderless window.",
+        tags: ["JavaFX", "SQLite", "CSV", "JUnit 5", "Maven"],
+        image: "images/dietarytrack.png",
+        source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/dietarytrack",
+        release: "https://github.com/vbforge/java-desktop-labs/releases/tag/dietarytrack-v1.0.0"
     }
 ];
