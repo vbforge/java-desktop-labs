@@ -292,5 +292,15 @@ const APPS = [
         image: "images/fitapp.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/fitapp",
         release: "https://github.com/vbforge/java-desktop-labs/releases/tag/fitapp-v1.0.0"
+    },
+    {
+        id: "turtlestudio",
+        name: "TurtleStudio",
+        framework: "JavaFX",
+        tagline: "Interactive turtle graphics and geometry studio. Drive the turtle manually or write scripts to generate algorithmic art, then export as PNG.",
+        tags: ["JavaFX", "Canvas", "Parsing", "Education", "Maven"],
+        image: "images/turtlestudio.png",
+        source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/turtlestudio",
+        release: "https://github.com/vbforge/java-desktop-labs/releases/tag/turtlestudio-v1.0.0"
     }
 ];
