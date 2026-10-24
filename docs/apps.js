@@ -302,5 +302,15 @@ const APPS = [
         image: "images/turtlestudio.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/turtlestudio",
         release: "https://github.com/vbforge/java-desktop-labs/releases/tag/turtlestudio-v1.0.0"
+    },
+    {
+        id: "slidecraft",
+        name: "SlideCraft",
+        framework: "JavaFX",
+        tagline: "Minimalist presentation editor that separates content from design. Write titles and text, pick a theme, then present fullscreen or export to PDF, PNG, Markdown and more.",
+        tags: ["JavaFX", "Jackson", "PDFBox", "Export", "Maven"],
+        image: "images/slidecraft.png",
+        source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/slidecraft",
+        release: "https://github.com/vbforge/java-desktop-labs/releases/tag/slidecraft-v1.0.0"
     }
 ];

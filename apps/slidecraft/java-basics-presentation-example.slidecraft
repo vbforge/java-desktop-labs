@@ -1,0 +1,96 @@
+{
+  "title": "Java Basics — SlideCraft",
+  "theme": {
+    "name": "Neon Cyberpunk",
+    "backgroundColor": "#000000",
+    "textColor": "#00e5ff",
+    "fontFamily": "Monospaced",
+    "textAlignment": "LEFT"
+  },
+  "sign": {
+    "enabled": true,
+    "text": "vbforge"
+  },
+  "slides": [
+    {
+      "title": "Java Basics",
+      "content": "A beginner-friendly introduction to Java programming\nFrom source code to simple, working programs.",
+      "notes": "Opening slide: introduce the goal of learning Java fundamentals."
+    },
+    {
+      "title": "What Is Java?",
+      "content": "• General-purpose, object-oriented programming language\n• Statically typed: variable types are known at compile time\n• Widely used for backend services, enterprise systems, and Android development\n• Designed for portability across supported platforms",
+      "notes": "Explain that Java is a language and also part of a broader development platform."
+    },
+    {
+      "title": "How Java Runs",
+      "content": "Source code (.java) → Java compiler (javac) → Bytecode (.class) → JVM → Program runs\n\nJDK = development tools + runtime components\nJVM = executes Java bytecode",
+      "notes": "Clarify the difference between the JDK and JVM. The JVM implementation depends on the operating system."
+    },
+    {
+      "title": "Your First Java Program",
+      "content": "public class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Hello, Java!\");\n    }\n}\n\nmain is the program entry point in this example.",
+      "notes": "Point out the class declaration, main method, and output statement."
+    },
+    {
+      "title": "Variables and Data Types",
+      "content": "int age = 25;\nlong population = 8_000_000_000L;\ndouble price = 19.99;\nboolean active = true;\nchar grade = 'A';\nString name = \"Alex\";\n\nA variable stores a value under a name.",
+      "notes": "String is a reference type, not a primitive type. Mention that Java is statically typed."
+    },
+    {
+      "title": "Primitive Types",
+      "content": "Integer types: byte, short, int, long\nDecimal types: float, double\nSingle character: char\nTrue/false: boolean\n\nUse int for common whole-number calculations and double for many everyday decimal calculations.",
+      "notes": "Introduce the eight primitive types. BigDecimal is often preferred for precise decimal arithmetic such as financial calculations."
+    },
+    {
+      "title": "Operators and Expressions",
+      "content": "Arithmetic: +  -  *  /  %\nComparison: ==  !=  <  >  <=  >=\nLogical: &&  ||  !\nAssignment: =  +=  -=\n\nint total = 7 + 3;\nboolean isAdult = age >= 18;",
+      "notes": "Explain that expressions produce values. Distinguish assignment (=) from equality comparison (==)."
+    },
+    {
+      "title": "Working with Strings",
+      "content": "String language = \"Java\";\nString message = \"Hello, \" + language;\n\nmessage.length()\nlanguage.toUpperCase()\nlanguage.equals(\"Java\")\n\nStrings are immutable: operations produce new String values rather than changing the original.",
+      "notes": "Recommend equals() for comparing String contents instead of ==, which checks reference identity."
+    },
+    {
+      "title": "Making Decisions: if and switch",
+      "content": "if (score >= 90) {\n    System.out.println(\"Excellent\");\n} else if (score >= 60) {\n    System.out.println(\"Pass\");\n} else {\n    System.out.println(\"Try again\");\n}\n\nUse switch when choosing among distinct cases.",
+      "notes": "Conditions in if statements must evaluate to boolean. Java also supports switch expressions in modern versions."
+    },
+    {
+      "title": "Loops",
+      "content": "for (int i = 0; i < 3; i++) {\n    System.out.println(i);\n}\n\nwhile (condition) { /* repeat */ }\nfor (String item : items) { /* process item */ }\n\nUse loops to repeat work without duplicating code.",
+      "notes": "Explain initialization, condition, and update in a for loop. Mention that a loop must eventually make progress toward termination."
+    },
+    {
+      "title": "Arrays",
+      "content": "int[] numbers = {10, 20, 30};\nSystem.out.println(numbers[0]);\nSystem.out.println(numbers.length);\n\n• Indexes start at 0\n• Array length is fixed after creation\n• Invalid indexes cause ArrayIndexOutOfBoundsException",
+      "notes": "Contrast the length field on arrays with the size() method commonly used by collections."
+    },
+    {
+      "title": "Methods",
+      "content": "static int add(int a, int b) {\n    return a + b;\n}\n\nint result = add(4, 6);\n\nMethods package reusable behavior. Parameters receive input; a return value sends a result back.",
+      "notes": "Explain method signature basics, arguments versus parameters, and return types. void means no value is returned."
+    },
+    {
+      "title": "Classes and Objects",
+      "content": "class Dog {\n    String name;\n\n    void bark() {\n        System.out.println(name + \" says woof!\");\n    }\n}\n\nDog dog = new Dog();\ndog.name = \"Rex\";\ndog.bark();",
+      "notes": "A class defines a type; an object is an instance of that class. This simple example uses a field and an instance method."
+    },
+    {
+      "title": "Constructors and Encapsulation",
+      "content": "class User {\n    private final String name;\n\n    User(String name) {\n        this.name = name;\n    }\n\n    public String getName() {\n        return name;\n    }\n}\n\nA constructor initializes a new object. private protects internal state.",
+      "notes": "Explain this.name as the instance field and name as the constructor parameter. Encapsulation controls how state is accessed and changed."
+    },
+    {
+      "title": "Exceptions and Debugging",
+      "content": "try {\n    int value = Integer.parseInt(\"123\");\n} catch (NumberFormatException e) {\n    System.out.println(\"Invalid number\");\n}\n\nExceptions represent exceptional conditions. Read the exception type, message, and stack trace to investigate failures.",
+      "notes": "Do not catch Exception indiscriminately. Catch exceptions the code can meaningfully handle, and avoid silently swallowing errors."
+    },
+    {
+      "title": "Collections and Next Steps",
+      "content": "List<String> names = new ArrayList<>();\nnames.add(\"Mia\");\nnames.add(\"Noah\");\n\nCollections store groups of objects and can grow dynamically.\n\nNext: generics • interfaces • enums • lambdas • streams • unit testing",
+      "notes": "Mention that List and ArrayList require imports from java.util. Encourage practice by building a small console application."
+    }
+  ]
+}
