@@ -155,7 +155,8 @@ public final class EditorController {
         presentationTitleField.getStyleClass().add("pres-title");
         presentationTitleField.setPromptText(Presentation.DEFAULT_TITLE);
         presentationTitleField.setAlignment(Pos.CENTER);
-        presentationTitleField.setMaxWidth(320);
+        presentationTitleField.setPrefWidth(300);
+        presentationTitleField.setMaxWidth(300);
         presentationTitleField.textProperty().addListener((o, a, b) -> {
             if (quiet > 0) {
                 return;
@@ -186,11 +187,16 @@ public final class EditorController {
         HBox rightGroup = new HBox(8, importBtn, export, present);
         rightGroup.setAlignment(Pos.CENTER_RIGHT);
 
-        // StackPane (not HBox) so the title is centred on the whole window, not just the leftover gap.
-        StackPane bar = new StackPane(leftGroup, presentationTitleField, rightGroup);
-        StackPane.setAlignment(leftGroup, Pos.CENTER_LEFT);
-        StackPane.setAlignment(presentationTitleField, Pos.CENTER);
-        StackPane.setAlignment(rightGroup, Pos.CENTER_RIGHT);
+        StackPane leftWrapper = new StackPane(leftGroup);
+        leftWrapper.setAlignment(Pos.CENTER_LEFT);
+        HBox.setHgrow(leftWrapper, Priority.ALWAYS);
+
+        StackPane rightWrapper = new StackPane(rightGroup);
+        rightWrapper.setAlignment(Pos.CENTER_RIGHT);
+        HBox.setHgrow(rightWrapper, Priority.ALWAYS);
+
+        HBox bar = new HBox(leftWrapper, presentationTitleField, rightWrapper);
+        bar.setAlignment(Pos.CENTER);
         bar.getStyleClass().add("top-bar");
         return bar;
     }

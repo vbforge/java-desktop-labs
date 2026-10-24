@@ -2,6 +2,12 @@
 
 Minimalist desktop presentation editor (JavaFX 21, Java 21). You write titles and text; one theme styles every slide.
 
+![SlideCraft screenshot](../../docs/images/slidecraft.png)
+
+![Java](https://img.shields.io/badge/Java-21-orange)
+![JavaFX](https://img.shields.io/badge/JavaFX-21-blue)
+![JUnit 5](https://img.shields.io/badge/Tests-JUnit%205-3fb950)
+![License](https://img.shields.io/badge/license-MIT-green)
 ## Run / build
 
 Requires JDK 21 and Maven 3.9+.
