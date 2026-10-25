@@ -1,0 +1,89 @@
+.root {
+    -fx-base: #161b22;
+    -fx-background: #0d1117;
+    -fx-background-color: -fx-background;
+    -fx-control-inner-background: #0d1117;
+    -fx-control-inner-background-alt: #161b22;
+    -fx-accent: #f89820;
+    -fx-focus-color: #f89820;
+    -fx-faint-focus-color: transparent;
+    -fx-text-base-color: #e6edf3;
+    -fx-text-background-color: #e6edf3;
+    -fx-prompt-text-fill: #6e7681;
+    -fx-font-size: 13px;
+}
+
+.dialog-pane { -fx-background-color: #161b22; }
+.dialog-pane > .button-bar > .container { -fx-background-color: #161b22; }
+.dialog-pane > .content.label { -fx-text-fill: #e6edf3; }
+
+.toolbar {
+    -fx-background-color: #161b22;
+    -fx-border-color: transparent transparent #2a313c transparent;
+    -fx-padding: 8 12;
+}
+.side-panel { -fx-background-color: #161b22; -fx-padding: 16; }
+.side-panel.right { -fx-border-color: transparent transparent transparent #2a313c; }
+.board-holder { -fx-background-color: #0d1117; -fx-padding: 24; }
+
+.field-label, .section-title {
+    -fx-text-fill: #8b949e;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-background-color: #1c2129;
+    -fx-border-color: #2a313c;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-text-fill: #e6edf3;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-padding: 7 14;
+}
+.button:hover { -fx-background-color: #242b36; }
+.button:focused { -fx-border-color: #f89820; }
+.button:disabled { -fx-opacity: 0.4; }
+
+.text-field {
+    -fx-background-color: #161b22;
+    -fx-border-color: #2a313c;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-text-fill: #e6edf3;
+    -fx-padding: 8 10;
+}
+.text-field:focused { -fx-border-color: #f89820; }
+
+.radio-button { -fx-text-fill: #e6edf3; }
+
+.goal-card {
+    -fx-background-color: #1c2129;
+    -fx-border-color: #2a313c;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 10;
+}
+.goal-card.active { -fx-border-color: #f89820; }
+.goal-title { -fx-text-fill: #8b949e; -fx-font-size: 10px; -fx-font-weight: bold; }
+.goal-score {
+    -fx-text-fill: #f89820;
+    -fx-font-family: "Consolas", "Menlo", "DejaVu Sans Mono", monospace;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.separator .line { -fx-border-color: #2a313c; }
+
+.status-bar {
+    -fx-background-color: #161b22;
+    -fx-border-color: #2a313c transparent transparent transparent;
+    -fx-border-width: 1 0 0 0;
+    -fx-padding: 6 14;
+}
+.status-bar .label {
+    -fx-text-fill: #8b949e;
+    -fx-font-family: "Consolas", "Menlo", "DejaVu Sans Mono", monospace;
+    -fx-font-size: 11px;
+}

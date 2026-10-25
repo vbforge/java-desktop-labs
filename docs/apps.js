@@ -312,5 +312,15 @@ const APPS = [
         image: "images/slidecraft.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/slidecraft",
         release: "https://github.com/vbforge/java-desktop-labs/releases/tag/slidecraft-v1.0.0"
+    },
+    {
+        id: "blockforge",
+        name: "BlockForge",
+        framework: "JavaFX",
+        tagline: "Mondrian quad-tree puzzle game. Two players take turns smashing, rotating and reflecting coloured blocks to chase a randomly-assigned goal — build the largest connected blob or push your colour to the perimeter. Full-time-travel undo/redo, seeded reproducible games, and portable save files.",
+        tags: ["JavaFX", "Jackson", "Maven", "JUnit 5", "Quad-tree", "Game"],
+        image: "images/blockforge.png",
+        source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/blockforge",
+        release: "https://github.com/vbforge/java-desktop-labs/releases/tag/blockforge-v1.0.0"
     }
 ];

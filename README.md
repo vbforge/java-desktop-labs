@@ -41,6 +41,7 @@ Covering algorithms, databases, networking, games, productivity tools, etc.
 | 29 | [FitApp](apps/fitapp/README.md)       | JavaFX    |  Local-first fitness and workout tracker. Java 21, JavaFX 21, SQLite, JUnit 5, Maven.    |
 | 30 | [TurtleStudio](apps/turtlestudio/README.md)       | JavaFX    |  Interactive Turtle Graphics and Geometry Studio.    |
 | 31 | [SlideCraft](apps/slidecraft/README.md)       | JavaFX    |  Minimalist theme-driven presentation editor (JavaFX).    |
+| 32 | [BlockForge](apps/blockforge/README.md)       | JavaFX    |  Mondrian quad-tree puzzle game (JavaFX).    |
 
 ## Repository layout
 
