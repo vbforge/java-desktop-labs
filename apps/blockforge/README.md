@@ -7,6 +7,12 @@ Rebuilt from the classic "A Game of Blocks" assignment as a proper desktop app â
 same seeds, same boards â€” with a modern JavaFX UI, snapshot-based undo/redo, and portable
 save files.
 
+![BlockForge screenshot](../../docs/images/blockforge.png)
+
+![Java](https://img.shields.io/badge/Java-21-orange)
+![JavaFX](https://img.shields.io/badge/JavaFX-21-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 ## Run / build
 
 Requires JDK 21 and Maven 3.9+.
