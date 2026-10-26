@@ -42,6 +42,7 @@ Covering algorithms, databases, networking, games, productivity tools, etc.
 | 30 | [TurtleStudio](apps/turtlestudio/README.md)       | JavaFX    |  Interactive Turtle Graphics and Geometry Studio.    |
 | 31 | [SlideCraft](apps/slidecraft/README.md)       | JavaFX    |  Minimalist theme-driven presentation editor (JavaFX).    |
 | 32 | [BlockForge](apps/blockforge/README.md)       | JavaFX    |  Mondrian quad-tree puzzle game (JavaFX).    |
+| 33 | [AnimalPedia](apps/animalpedia/README.md)       | JavaFX    |  A friendly desktop encyclopedia of animals for curious kids.    |
 
 ## Repository layout
 

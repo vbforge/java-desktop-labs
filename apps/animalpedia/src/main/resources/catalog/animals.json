@@ -1,0 +1,302 @@
+[
+  {
+    "slug": "lion",
+    "commonName": "Lion",
+    "scientificName": "Panthera leo",
+    "emoji": "🦁",
+    "group": "Mammals",
+    "status": "VU",
+    "diet": "Meat-eater: zebras, wildebeest, buffalo",
+    "habitat": "Savannas and grasslands of Africa, plus one forest in India",
+    "lifespan": "10-14 years in the wild",
+    "size": "Males weigh up to about 250 kg",
+    "funFact": "A lion's roar can be heard from up to 8 kilometres away!",
+    "summary": "The big cat that lives in family groups called prides.",
+    "paragraphs": [
+      "Lions are big cats that live in Africa, and a few live in a forest in India. They are the only cats that live in big family groups, called prides.",
+      "A pride is made of related females, their cubs, and a few adult males. The females do most of the hunting and work together to catch zebras, wildebeest and other large animals. The males guard the pride, and only male lions grow a shaggy mane.",
+      "Lions spend a lot of the day resting, sometimes for 20 hours! Their loud roar tells other lions, 'This is our home.'"
+    ],
+    "taxonomy": { "kingdom": "Animalia", "phylum": "Chordata", "class": "Mammalia", "order": "Carnivora", "family": "Felidae", "genus": "Panthera" }
+  },
+  {
+    "slug": "african-bush-elephant",
+    "commonName": "African Bush Elephant",
+    "scientificName": "Loxodonta africana",
+    "emoji": "🐘",
+    "group": "Mammals",
+    "status": "EN",
+    "diet": "Plant-eater: grass, leaves, bark, fruit",
+    "habitat": "Savannas, grasslands and forest edges of Africa",
+    "lifespan": "60-70 years",
+    "size": "Up to 4 m tall and about 6,000 kg",
+    "funFact": "An elephant's trunk is a nose, a hand, a snorkel and a water hose all in one!",
+    "summary": "The biggest animal that walks on land.",
+    "paragraphs": [
+      "The African bush elephant is the largest land animal on Earth. A grown-up male can stand about as tall as a one-storey house and weigh as much as several cars.",
+      "Elephants live in family herds led by the oldest female, called the matriarch. Calves are looked after by their mothers, aunts and big sisters. Elephants are very clever, and they can remember places, paths and other elephants for many years.",
+      "An adult elephant eats for most of the day and can munch well over 100 kilograms of plants. Their big ears work like fans to keep them cool."
+    ],
+    "taxonomy": { "kingdom": "Animalia", "phylum": "Chordata", "class": "Mammalia", "order": "Proboscidea", "family": "Elephantidae", "genus": "Loxodonta" }
+  },
+  {
+    "slug": "capybara",
+    "commonName": "Capybara",
+    "scientificName": "Hydrochoerus hydrochaeris",
+    "emoji": "🦫",
+    "group": "Mammals",
+    "status": "LC",
+    "diet": "Plant-eater: grass and water plants",
+    "habitat": "Rivers, lakes and wetlands of South America",
+    "lifespan": "8-10 years",
+    "size": "About 1.2 m long, 35-65 kg",
+    "funFact": "Capybaras are great swimmers and can stay underwater for about five minutes!",
+    "summary": "The largest rodent in the world, and a champion swimmer.",
+    "paragraphs": [
+      "The capybara is the biggest rodent on Earth. It is a cousin of guinea pigs and looks a bit like a giant one.",
+      "Capybaras live in South America and are never far from water. They have slightly webbed feet, and they swim and dive to cool off and to escape danger. Their eyes, ears and nostrils sit high on their heads, so they can stay almost hidden while they float.",
+      "They are very friendly animals that live in groups, and other animals, including birds and monkeys, sometimes relax right next to them."
+    ],
+    "taxonomy": { "kingdom": "Animalia", "phylum": "Chordata", "class": "Mammalia", "order": "Rodentia", "family": "Caviidae", "genus": "Hydrochoerus" }
+  },
+  {
+    "slug": "tiger",
+    "commonName": "Tiger",
+    "scientificName": "Panthera tigris",
+    "emoji": "🐯",
+    "group": "Mammals",
+    "status": "EN",
+    "diet": "Meat-eater: deer, wild pigs, buffalo",
+    "habitat": "Forests, grasslands and swamps of Asia",
+    "lifespan": "10-15 years in the wild",
+    "size": "Up to 3 m long and over 200 kg",
+    "funFact": "No two tigers have the same stripes. Every tiger's pattern is unique!",
+    "summary": "The largest wild cat, famous for its stripes.",
+    "paragraphs": [
+      "Tigers are the biggest cats in the world. Their orange coat with dark stripes helps them hide in tall grass and shadows.",
+      "Unlike lions, tigers usually live and hunt alone. They sneak up quietly on their prey and then pounce. Tigers love water and are strong swimmers, which is unusual for a cat.",
+      "Tigers are endangered because their forests have shrunk and people have hunted them. Rangers and conservation groups in Asia work hard to protect the tigers that are left."
+    ],
+    "taxonomy": { "kingdom": "Animalia", "phylum": "Chordata", "class": "Mammalia", "order": "Carnivora", "family": "Felidae", "genus": "Panthera" }
+  },
+  {
+    "slug": "giraffe",
+    "commonName": "Giraffe",
+    "scientificName": "Giraffa camelopardalis",
+    "emoji": "🦒",
+    "group": "Mammals",
+    "status": "VU",
+    "diet": "Plant-eater: leaves, especially from acacia trees",
+    "habitat": "Savannas and open woodlands of Africa",
+    "lifespan": "20-25 years in the wild",
+    "size": "Up to 5.5 m tall",
+    "funFact": "A giraffe has the same number of neck bones as you: just seven. Each one is super long!",
+    "summary": "The tallest animal on Earth.",
+    "paragraphs": [
+      "Giraffes are the tallest animals in the world. Their long necks and legs let them reach leaves high up in the trees that other animals cannot get to.",
+      "A giraffe's tongue is about 45 centimetres long and dark in colour. It can wrap around thorny branches and pull off leaves without getting hurt.",
+      "Giraffes live in loose groups called towers. A baby giraffe is already about as tall as a grown-up person when it is born, and it can walk within an hour."
+    ],
+    "taxonomy": { "kingdom": "Animalia", "phylum": "Chordata", "class": "Mammalia", "order": "Artiodactyla", "family": "Giraffidae", "genus": "Giraffa" }
+  },
+  {
+    "slug": "red-fox",
+    "commonName": "Red Fox",
+    "scientificName": "Vulpes vulpes",
+    "emoji": "🦊",
+    "group": "Mammals",
+    "status": "LC",
+    "diet": "Eats almost anything: mice, birds, insects, fruit",
+    "habitat": "Forests, fields and even towns across the Northern Hemisphere",
+    "lifespan": "2-5 years in the wild",
+    "size": "Weighs about 4-7 kg",
+    "funFact": "Scientists think foxes use Earth's magnetic field to help aim their pounce on mice under the snow!",
+    "summary": "A clever, bushy-tailed hunter that lives almost everywhere.",
+    "paragraphs": [
+      "The red fox is the most widespread wild member of the dog family. It lives on several continents, from snowy forests to busy cities.",
+      "Foxes have sharp hearing and can hear a mouse squeaking from far away. Their long bushy tail helps them balance when they run and keeps them warm when they curl up to sleep.",
+      "Baby foxes are called kits or cubs. They are born in a den, which is a cosy hole in the ground, and they play-fight to practise hunting skills."
+    ],
+    "taxonomy": { "kingdom": "Animalia", "phylum": "Chordata", "class": "Mammalia", "order": "Carnivora", "family": "Canidae", "genus": "Vulpes" }
+  },
+  {
+    "slug": "bald-eagle",
+    "commonName": "Bald Eagle",
+    "scientificName": "Haliaeetus leucocephalus",
+    "emoji": "🦅",
+    "group": "Birds",
+    "status": "LC",
+    "diet": "Meat-eater: fish, waterbirds, small animals",
+    "habitat": "Near lakes, rivers and coasts of North America",
+    "lifespan": "20-30 years",
+    "size": "Wingspan up to about 2.3 m",
+    "funFact": "A bald eagle's nest can weigh more than a tonne, heavier than a small car!",
+    "summary": "A powerful bird of prey with a white head.",
+    "paragraphs": [
+      "The bald eagle is a large bird of prey that lives in North America. It is not really bald: its name comes from an old word that meant 'white-headed'.",
+      "Bald eagles have amazing eyesight and can spot a fish from very high in the sky. They swoop down and snatch it with their sharp claws, called talons.",
+      "Eagle pairs often stay together for life. They build huge nests high in tall trees and add more sticks to them year after year."
+    ],
+    "taxonomy": { "kingdom": "Animalia", "phylum": "Chordata", "class": "Aves", "order": "Accipitriformes", "family": "Accipitridae", "genus": "Haliaeetus" }
+  },
+  {
+    "slug": "emperor-penguin",
+    "commonName": "Emperor Penguin",
+    "scientificName": "Aptenodytes forsteri",
+    "emoji": "🐧",
+    "group": "Birds",
+    "status": "NT",
+    "diet": "Meat-eater: fish, squid, krill",
+    "habitat": "The ice and ocean around Antarctica",
+    "lifespan": "About 20 years",
+    "size": "About 1.1 m tall, 22-45 kg",
+    "funFact": "Dad penguins keep the egg warm on their feet for about two months through the freezing winter!",
+    "summary": "The tallest penguin, and a hero of the Antarctic winter.",
+    "paragraphs": [
+      "Emperor penguins are the biggest penguins in the world. They cannot fly, but they are brilliant swimmers and can dive hundreds of metres deep to catch fish.",
+      "They breed in the middle of the Antarctic winter, when it is the coldest place on Earth. The mum lays one egg, and the dad balances it on his feet under a warm flap of skin while she goes to sea to feed.",
+      "To stay warm, thousands of penguins huddle close together and take turns standing in the chilly outside edge."
+    ],
+    "taxonomy": { "kingdom": "Animalia", "phylum": "Chordata", "class": "Aves", "order": "Sphenisciformes", "family": "Spheniscidae", "genus": "Aptenodytes" }
+  },
+  {
+    "slug": "common-raven",
+    "commonName": "Common Raven",
+    "scientificName": "Corvus corax",
+    "emoji": "🐦",
+    "group": "Birds",
+    "status": "LC",
+    "diet": "Eats almost anything: insects, seeds, small animals, leftovers",
+    "habitat": "Mountains, forests, coasts and deserts of the Northern Hemisphere",
+    "lifespan": "10-15 years in the wild",
+    "size": "Wingspan around 1.2 m",
+    "funFact": "Ravens can solve puzzles, use tools, and some can even copy human words!",
+    "summary": "One of the smartest birds in the world.",
+    "paragraphs": [
+      "The common raven is a big black bird with a thick beak and shaggy throat feathers. It is the largest of all the songbird family, which also includes crows and jays.",
+      "Ravens are famous for being clever. They can solve problems, remember faces, and play games, such as sliding down snowy slopes. They also make a wide range of sounds, from deep croaks to clicks and gurgles.",
+      "Many ravens pair up for life, and they perform acrobatic flights together, including rolls and dives."
+    ],
+    "taxonomy": { "kingdom": "Animalia", "phylum": "Chordata", "class": "Aves", "order": "Passeriformes", "family": "Corvidae", "genus": "Corvus" }
+  },
+  {
+    "slug": "komodo-dragon",
+    "commonName": "Komodo Dragon",
+    "scientificName": "Varanus komodoensis",
+    "emoji": "🦎",
+    "group": "Reptiles",
+    "status": "EN",
+    "diet": "Meat-eater: deer, pigs, birds, eggs",
+    "habitat": "A few dry, hot islands in Indonesia",
+    "lifespan": "About 30 years",
+    "size": "Up to 3 m long and about 70 kg",
+    "funFact": "The Komodo dragon is the biggest lizard on Earth, and it can smell food from far, far away!",
+    "summary": "The world's largest lizard.",
+    "paragraphs": [
+      "Komodo dragons are giant lizards that live on a handful of islands in Indonesia. They are the heaviest lizards in the world.",
+      "They use their long, forked tongue to taste the air and find food. Komodo dragons are strong hunters, and they can run fast over short distances. A bite from a Komodo dragon contains venom that helps weaken its prey.",
+      "Young dragons spend their first years climbing in trees, where they are safe from hungry adults."
+    ],
+    "taxonomy": { "kingdom": "Animalia", "phylum": "Chordata", "class": "Reptilia", "order": "Squamata", "family": "Varanidae", "genus": "Varanus" }
+  },
+  {
+    "slug": "green-sea-turtle",
+    "commonName": "Green Sea Turtle",
+    "scientificName": "Chelonia mydas",
+    "emoji": "🐢",
+    "group": "Reptiles",
+    "status": "EN",
+    "diet": "Mostly plant-eater: seagrass and algae",
+    "habitat": "Warm oceans around the world",
+    "lifespan": "60-70 years or more",
+    "size": "Shell about 1 m long",
+    "funFact": "Green sea turtles often return to the very beach where they hatched to lay their own eggs!",
+    "summary": "A gentle ocean traveller that grazes on seagrass.",
+    "paragraphs": [
+      "Green sea turtles live in warm seas all over the world. They are named for the green colour of the fat under their shell, not for the colour of the shell itself.",
+      "Young turtles eat many kinds of small animals, but grown-ups mostly graze on seagrass and algae, which helps keep the seagrass meadows healthy.",
+      "Mother turtles crawl onto beaches at night to lay eggs in the sand. When the babies hatch, they race to the sea, and only a few will survive to adulthood."
+    ],
+    "taxonomy": { "kingdom": "Animalia", "phylum": "Chordata", "class": "Reptilia", "order": "Testudines", "family": "Cheloniidae", "genus": "Chelonia" }
+  },
+  {
+    "slug": "king-cobra",
+    "commonName": "King Cobra",
+    "scientificName": "Ophiophagus hannah",
+    "emoji": "🐍",
+    "group": "Reptiles",
+    "status": "VU",
+    "diet": "Meat-eater: mostly other snakes",
+    "habitat": "Forests of India and Southeast Asia",
+    "lifespan": "About 20 years",
+    "size": "Usually 3-4 m long, up to 5.5 m",
+    "funFact": "The king cobra is the only snake that builds a nest for its eggs, and mum guards it!",
+    "summary": "The longest venomous snake in the world.",
+    "paragraphs": [
+      "The king cobra is the longest venomous snake on Earth. Its scientific name means 'snake-eater', because it mostly hunts other snakes.",
+      "When it feels threatened, it lifts the front part of its body off the ground, spreads a hood and hisses with a deep growl. Most king cobras would rather slip away quietly than meet people.",
+      "Female king cobras gather leaves to make a nest for their eggs and stay nearby until the eggs are almost ready to hatch."
+    ],
+    "taxonomy": { "kingdom": "Animalia", "phylum": "Chordata", "class": "Reptilia", "order": "Squamata", "family": "Elapidae", "genus": "Ophiophagus" }
+  },
+  {
+    "slug": "axolotl",
+    "commonName": "Axolotl",
+    "scientificName": "Ambystoma mexicanum",
+    "emoji": "🐸",
+    "group": "Amphibians",
+    "status": "CR",
+    "diet": "Meat-eater: worms, insects, small fish",
+    "habitat": "Lake Xochimilco near Mexico City, its only wild home",
+    "lifespan": "10-15 years",
+    "size": "Around 25 cm long",
+    "funFact": "Axolotls can regrow lost legs, tails and even parts of their heart and brain!",
+    "summary": "The smiling salamander that never grows up.",
+    "paragraphs": [
+      "The axolotl is a salamander from Mexico. Unlike most amphibians, it keeps its feathery gills and stays in the water for its whole life, even when it is fully grown.",
+      "Axolotls are famous for their ability to regrow body parts. Scientists study them hoping to learn how humans might one day heal better.",
+      "In the wild, axolotls live only in a few canals and lakes near Mexico City, and they are critically endangered. Many people keep them as pets, but they need cool, clean water."
+    ],
+    "taxonomy": { "kingdom": "Animalia", "phylum": "Chordata", "class": "Amphibia", "order": "Caudata", "family": "Ambystomatidae", "genus": "Ambystoma" }
+  },
+  {
+    "slug": "monarch-butterfly",
+    "commonName": "Monarch Butterfly",
+    "scientificName": "Danaus plexippus",
+    "emoji": "🦋",
+    "group": "Insects",
+    "status": "EN",
+    "diet": "Caterpillars eat milkweed leaves; butterflies sip flower nectar",
+    "habitat": "Meadows and gardens of North America",
+    "lifespan": "2-6 weeks, but the migrating generation lives up to 8 months",
+    "size": "Wingspan about 9-10 cm",
+    "funFact": "Monarchs fly thousands of kilometres to a warm winter home, even though they have never been there before!",
+    "summary": "The orange-and-black butterfly famous for its long migration.",
+    "paragraphs": [
+      "Monarch butterflies are easy to spot with their bright orange wings edged in black. Their colours warn birds that they taste bad.",
+      "In autumn, monarchs from Canada and the United States fly south to spend the winter in Mexico and California. The butterflies that make the trip are the grandchildren or great-grandchildren of the ones that flew north in spring.",
+      "Monarch caterpillars only eat milkweed plants. The migrating monarchs of North America are listed as endangered, and many people plant milkweed in their gardens to help."
+    ],
+    "taxonomy": { "kingdom": "Animalia", "phylum": "Arthropoda", "class": "Insecta", "order": "Lepidoptera", "family": "Nymphalidae", "genus": "Danaus" }
+  },
+  {
+    "slug": "honey-bee",
+    "commonName": "Honey Bee",
+    "scientificName": "Apis mellifera",
+    "emoji": "🐝",
+    "group": "Insects",
+    "status": "NE",
+    "diet": "Nectar and pollen from flowers",
+    "habitat": "Hives in meadows, forests and gardens around the world",
+    "lifespan": "Workers: about 6 weeks. Queens: 3-5 years",
+    "size": "About 1.2-1.5 cm long",
+    "funFact": "A honey bee does a 'waggle dance' to show her sisters exactly where the best flowers are!",
+    "summary": "A busy insect that makes honey and helps flowers grow.",
+    "paragraphs": [
+      "Honey bees live in big colonies with a single queen, thousands of female workers, and a few male bees called drones. Everyone has a job, such as feeding babies, building wax honeycomb, guarding the hive, or collecting food.",
+      "Workers visit flowers to drink nectar and gather pollen. As they travel from flower to flower, they carry pollen with them, which helps many fruits, vegetables and nuts to grow.",
+      "Bees turn nectar into honey and store it in the honeycomb as food for the winter. One bee makes only about a twelfth of a teaspoon of honey in her whole life."
+    ],
+    "taxonomy": { "kingdom": "Animalia", "phylum": "Arthropoda", "class": "Insecta", "order": "Hymenoptera", "family": "Apidae", "genus": "Apis" }
+  }
+]

@@ -322,5 +322,15 @@ const APPS = [
         image: "images/blockforge.png",
         source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/blockforge",
         release: "https://github.com/vbforge/java-desktop-labs/releases/tag/blockforge-v1.0.0"
+    },
+    {
+        id: "animalpedia",
+        name: "AnimalPedia",
+        framework: "JavaFX",
+        tagline: "A friendly desktop encyclopedia of animals for curious kids, built with Java 21 and JavaFX 21.",
+        tags: ["JavaFX", "Maven", "JUnit 5", "Education"],
+        image: "images/animalpedia.png",
+        source: "https://github.com/vbforge/java-desktop-labs/tree/main/apps/animalpedia",
+        release: "https://github.com/vbforge/java-desktop-labs/releases/tag/animalpedia-v1.0.0"
     }
 ];
